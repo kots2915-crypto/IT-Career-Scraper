@@ -3,60 +3,60 @@ import pandas as pd
 import time
 import os
 
-# Lấy ID và Key từ hệ thống bảo mật của GitHub
 APP_ID = os.getenv('ADZUNA_APP_ID')
 APP_KEY = os.getenv('ADZUNA_APP_KEY')
 
-def fetch_adzuna_data():
-    print("📡 Đang gọi API Adzuna để lấy dữ liệu...")
-    # Lấy dữ liệu việc làm IT (ưu tiên từ khóa Data, AI, Dev)
-    url = f"https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id={APP_ID}&app_key={APP_KEY}&results_per_page=20&what=it%20developer"
+def fetch_adzuna_data(pages=5):
+    all_jobs = []
+    print(f"📡 Đang bắt đầu thu thập dữ liệu từ {pages} trang Adzuna...")
     
-    try:
-        response = requests.get(url)
-        results = response.json().get('results', [])
-        
-        jobs = []
-        for item in results:
-            jobs.append({
-                "job_title": item.get('title'),
-                "salary_min": item.get('salary_min'),
-                "location": "International",
-                "source": "Adzuna API"
-            })
-        return pd.DataFrame(jobs)
-    except Exception as e:
-        print(f"❌ Lỗi kết nối API: {e}")
-        return pd.DataFrame()
+    for page in range(1, pages + 1):
+        url = f"https://api.adzuna.com/v1/api/jobs/gb/search/{page}?app_id={APP_ID}&app_key={APP_KEY}&results_per_page=50&what=it%20developer"
+        try:
+            response = requests.get(url)
+            if response.status_code == 200:
+                results = response.json().get('results', [])
+                for item in results:
+                    all_jobs.append({
+                        "id": item.get('id'), # Dùng ID để lọc trùng
+                        "job_title": item.get('title'),
+                        "salary_min": item.get('salary_min'),
+                        "location": item.get('location', {}).get('display_name', 'International'),
+                        "date_scraped": time.strftime("%Y-%m-%d")
+                    })
+                print(f"   ✅ Đã lấy xong trang {page}")
+            time.sleep(1) 
+        except:
+            continue
+    return pd.DataFrame(all_jobs)
 
-def process_data():
-    # 1. Lấy dữ liệu từ API
-    df_api = fetch_adzuna_data()
+def accumulate_data():
+    # 1. Lấy dữ liệu mới
+    df_new = fetch_adzuna_data(pages=5)
     
-    # 2. Đọc file dữ liệu nội địa (nếu bạn đã cào file vn_jobs.csv lên GitHub)
-    try:
-        df_vn = pd.read_csv("vn_jobs.csv")
-    except:
-        # Dữ liệu dự phòng nếu chưa có file VN
-        df_vn = pd.DataFrame([{"job_title": "Data Scientist (VN)", "salary_min": 25000000, "location": "HCMC", "source": "Manual Scrape"}])
+    # 2. Kiểm tra và đọc dữ liệu cũ từ daily_jobs.csv
+    file_path = "daily_jobs.csv"
+    if os.path.exists(file_path):
+        print("📁 Tìm thấy dữ liệu cũ, đang tiến hành tích lũy...")
+        df_old = pd.read_csv(file_path)
+        # Gộp mới và cũ
+        df_final = pd.concat([df_old, df_new], ignore_index=True)
+    else:
+        print("🆕 Chưa có dữ liệu cũ, tạo file mới...")
+        df_final = df_new
 
-    # 3. Hợp nhất dữ liệu
-    final_df = pd.concat([df_api, df_vn], ignore_index=True)
+    # 3. LOẠI BỎ TRÙNG LẶP (Cực kỳ quan trọng)
+    # Tránh việc 1 công việc bị lưu nhiều lần nếu nó vẫn còn trên web vào hôm sau
+    before_count = len(df_final)
+    df_final = df_final.drop_duplicates(subset=['id'], keep='first')
+    after_count = len(df_final)
     
-    # 4. Tính toán xu hướng (Trend Analysis)
-    # Áp dụng logic phân loại đơn giản để chatbot dễ xử lý
-    def analyze_trend(title):
-        t = str(title).upper()
-        if any(x in t for x in ["AI", "DATA", "MACHINE", "LEARNING"]): return "🔥 High Demand"
-        if any(x in t for x in ["PYTHON", "JAVA", "FLUTTER"]): return "📈 Growing"
-        return "⚖️ Stable"
+    print(f"🧹 Đã loại bỏ {before_count - after_count} tin trùng lặp.")
+    print(f"📊 Tổng số tin tích lũy được hiện tại: {after_count}")
 
-    final_df['trend'] = final_df['job_title'].apply(analyze_trend)
-    final_df['last_updated'] = time.strftime("%Y-%m-%d %H:%M")
-
-    # Lưu thành phẩm cho nhóm Web và Chatbot
-    final_df.to_csv("daily_jobs.csv", index=False, encoding='utf-8-sig')
-    print(f"✅ Thành công! Đã xử lý {len(final_df)} dòng dữ liệu cho đồ án.")
+    # 4. Lưu lại
+    df_final.to_csv(file_path, index=False, encoding='utf-8-sig')
+    print(f"💾 Đã lưu thành phẩm vào {file_path}")
 
 if __name__ == "__main__":
-    process_data()
+    accumulate_data()
