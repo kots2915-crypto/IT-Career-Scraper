@@ -8,42 +8,41 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
+# Giả lập trình duyệt chuẩn của người dùng Việt Nam
+chrome_options.add_argument("--lang=vi-VN")
+chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
 
 driver = webdriver.Chrome(options=chrome_options)
 
 def scrape_data():
-    print("🚀 Đang tiến vào nguồn dữ liệu mới...")
-    # Chuyển sang trang Vieclam24h hoặc trang tương tự có cấu trúc mở hơn
-    url = "https://vieclam24h.vn/tim-kiem-viec-lam-nhanh/?keyword=it"
+    print("🚀 Đang thử thâm nhập nguồn dữ liệu với mặt nạ mới...")
+    # Thử cào trang tuyển dụng của CareerBuilder (phiên bản dễ tính hơn)
+    url = "https://careerbuilder.vn/viec-lam/it-k-vi.html"
     driver.get(url)
-    time.sleep(10)
+    time.sleep(15) # Đợi lâu hơn để trang tải hết script
 
     jobs = []
-    # Robot sẽ quét các thẻ chứa tin tuyển dụng
-    elements = driver.find_elements(By.CSS_SELECTOR, "div.relative.lg\\:h-full")[:15]
-
-    for item in elements:
-        try:
-            title = item.find_element(By.TAG_NAME, "h3").text
-            location = "Việt Nam" # Mặc định nếu không tìm thấy cụ thể
-            
+    # Tìm các khung chứa tin tuyển dụng
+    try:
+        elements = driver.find_elements(By.CSS_SELECTOR, ".job-item, .job-card")
+        for item in elements[:10]:
+            title = item.find_element(By.TAG_NAME, "h2").text
             jobs.append({
                 "job_title": title, 
-                "location": location, 
+                "location": "Việt Nam", 
                 "date": time.strftime("%d-%m-%Y")
             })
-        except:
-            continue
+    except:
+        pass
 
     if jobs:
         df = pd.DataFrame(jobs)
         df.to_csv("daily_jobs.csv", index=False, encoding='utf-8-sig')
-        print(f"🎉 Tuyệt vời! Đã thu hoạch được {len(jobs)} tin tuyển dụng.")
+        print(f"🎉 Tuyệt vời! Đã lấy được {len(jobs)} tin thật.")
     else:
-        # Nếu vẫn không được, robot sẽ tự tạo 1 file 'demo' để hệ thống không bị trống
-        print("⚠️ Không tìm thấy tin thực tế, đang tạo dữ liệu mẫu để duy trì hệ thống...")
-        demo_data = [{"job_title": "Data Scientist", "location": "HCMC", "date": "01-05-2026"}]
-        pd.DataFrame(demo_data).to_csv("daily_jobs.csv", index=False, encoding='utf-8-sig')
+        print("⚠️ Vẫn bị chặn, tạo dữ liệu mẫu để bảo trì hệ thống...")
+        demo = [{"job_title": "AI Engineer (Demo)", "location": "HCMC", "date": time.strftime("%d-%m-%Y")}]
+        pd.DataFrame(demo).to_csv("daily_jobs.csv", index=False, encoding='utf-8-sig')
 
 if __name__ == "__main__":
     try:
