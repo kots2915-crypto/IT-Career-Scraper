@@ -1,22 +1,252 @@
-﻿job_title,salary_min,location,source,trend,last_updated
-IT Development Team Leader,39500.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-IT Business Development Manager,45000.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-IT Process Developer,40000.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-IT Development Placement,26257.2,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-IT Analyst - Development & Transformation - EAL12485,30001.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-Graduate- IT Development Program Associate,45043.61,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-Graduate- IT Development Program Associate,44604.09,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-IT Development Team Lead (Full Stack),100000.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-12 Month Internship - eFX IT Developer,37569.54,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-Business Development Manager - IT,60000.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-IT Business Development Manager,50000.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-IT Systems Development Manager,57793.47,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-IT Business Development Manager,33155.35,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-IT Business Development Manager,35000.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-IT Sales Development Representative,30831.85,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-IT Sales - Business Development Manager,35000.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-ServiceNow Developer (IT),49838.91,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-Python Developer (IT),400.0,International,Adzuna API,📈 Growing,2026-05-01 11:41
-Pentaho Developer (IT),650.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-Software Developer (IT),50000.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41
-Data Scientist (VN),25000000.0,HCMC,Manual Scrape,🔥 High Demand,2026-05-01 11:41
+﻿job_title,salary_min,location,source,trend,last_updated,id,date_scraped
+IT Development Team Leader,39500.0,International,Adzuna API,⚖️ Stable,2026-05-01 11:41,,
+IT Development Team Leader,39500.0,"Gloucestershire, South West England",,,,5698416812,2026-05-01
+IT Business Development Manager,45000.0,"East Midlands, UK",,,,5710232170,2026-05-01
+IT Process Developer,40000.0,"Bristol, South West England",,,,5715740970,2026-05-01
+IT Development Placement,26257.2,"Newcastle Upon Tyne, Tyne & Wear",,,,5441642179,2026-05-01
+IT Analyst - Development & Transformation - EAL12485,30001.0,"Haddington, East Lothian",,,,5702333592,2026-05-01
+Graduate- IT Development Program Associate,45043.61,"Daventry, Northamptonshire",,,,5702453731,2026-05-01
+Graduate- IT Development Program Associate,44604.09,"Daventry, Northamptonshire",,,,5703059452,2026-05-01
+IT Development Team Lead (Full Stack),100000.0,"Central London, London",,,,5680771938,2026-05-01
+12 Month Internship - eFX IT Developer,37569.54,"London, UK",,,,5691608351,2026-05-01
+Business Development Manager - IT,60000.0,"Birmingham, West Midlands",,,,5704614231,2026-05-01
+IT Business Development Manager,50000.0,"Borehamwood, Hertfordshire",,,,5705319399,2026-05-01
+IT Systems Development Manager,57793.47,"Warwick, Warwickshire",,,,5680204564,2026-05-01
+IT Business Development Manager,33155.35,UK,,,,5665227290,2026-05-01
+IT Business Development Manager,35000.0,"Telford, Shropshire",,,,5708720854,2026-05-01
+IT Sales Development Representative,30831.85,"London, UK",,,,5708331708,2026-05-01
+IT Sales - Business Development Manager,35000.0,"Abingdon, Oxfordshire",,,,5707207879,2026-05-01
+ServiceNow Developer (IT),49838.91,"Borough, South East London",,,,5659603900,2026-05-01
+Python Developer (IT),400.0,"Wokingham, Berkshire",,,,5659603899,2026-05-01
+Pentaho Developer (IT),650.0,"Borough, South East London",,,,5676771322,2026-05-01
+Software Developer (IT),50000.0,"Nottingham, Nottinghamshire",,,,5702637349,2026-05-01
+Java Developer (IT),50557.03,"Leeds, West Yorkshire",,,,5670888397,2026-05-01
+Java Developer (IT),60280.3,UK,,,,5491364836,2026-05-01
+Python Developer (IT),56059.98,"Gloucester, Gloucestershire",,,,5713761655,2026-05-01
+Spanish speaking IT Sales Development Representative,35000.0,"Manchester, Greater Manchester",,,,5665920677,2026-05-01
+IT and Software Development Manager,45000.0,"Woodgate, Birmingham",,,,5691959444,2026-05-01
+Senior Software Developer (IT),60000.0,UK,,,,5709193940,2026-05-01
+Rapid Application Developer – IT Quant,98936.41,"London, UK",,,,4802565458,2026-05-01
+Senior Full Stack Developer (IT),55000.0,"Hernstone, Bridgend",,,,5671816422,2026-05-01
+IT - Junior Python Developer - London,62974.35,"London, UK",,,,5624076248,2026-05-01
+D365 F&O Developer (IT),475.0,UK,,,,5683147646,2026-05-01
+Ruby on Rails UI Developer (IT),68870.56,"Mayhill, Swansea",,,,5712653830,2026-05-01
+Junior Full Stack Developer (IT),40000.0,"Stantonbury, Milton Keynes",,,,5714715280,2026-05-01
+React / React Native Developer (IT),56128.56,UK,,,,5709269573,2026-05-01
+"Head of Development, EMEA IT, IT - CITIC CLSA",112787.71,"London, UK",,,,5631887653,2026-05-01
+Business Development Manager - IT,40000.0,"Farringdon, Central London",,,,5692113754,2026-05-01
+Business Development Manager - IT,40000.0,"Balsall Heath, Birmingham",,,,5692113890,2026-05-01
+Business Development Manager - IT,40000.0,"Rusholme, Manchester",,,,5692113891,2026-05-01
+Business Development Representative (IT),30000.0,UK,,,,5676771325,2026-05-01
+Business Development Representative (IT),30000.0,UK,,,,5685261618,2026-05-01
+Business Development Director (IT),64859.39,"Scotland, UK",,,,5400366550,2026-05-01
+Sales Development Representative - IT Industry,42307.78,UK,,,,5661711453,2026-05-01
+Business Development Manager – IT Sector,30000.0,"Glasgow, Scotland",,,,5695524726,2026-05-01
+Business Development Manager – IT Sector,30000.0,"Bristol, South West England",,,,5701288259,2026-05-01
+Business Development Manager – IT Sector,30000.0,"Englefield, Reading",,,,5701356079,2026-05-01
+Business Development Manager – IT Sector,30000.0,"Humberstone, Leicester",,,,5698215095,2026-05-01
+Business Development Manager – IT & Cybersecurity,30000.0,"Belfast, Northern Ireland",,,,5706192669,2026-05-01
+Business Development Manager- IT Services,60000.0,"London, UK",,,,5119758731,2026-05-01
+Business Development Director - IT Services,66150.37,"London, UK",,,,5119759909,2026-05-01
+Business Development Director - IT Services,63213.11,"Bristol, South West England",,,,5119759630,2026-05-01
+Senior Software Developer - Salesforce (IT),71248.92,UK,,,,5677128051,2026-05-01
+"Field New Sales Development Manager - Tech, IT, Telecoms MSP",85000.0,"Tarring, Worthing",,,,5713958880,2026-05-01
+Business Development Manager - IT Leasing & Solutions,85000.0,"London, UK",,,,5706274898,2026-05-01
+IT Managed Services- Business Development Manager,55000.0,UK,,,,5119755851,2026-05-01
+ServiceNow IT Service Management Application Developer,52295.52,UK,,,,5210488812,2026-05-01
+Senior Business Development Manager- IT Services,61421.99,"London, UK",,,,5119759232,2026-05-01
+Business Development Manager (IT Services & Connectivity),44543.12,"Hemel Hempstead, Hertfordshire",,,,5712874677,2026-05-01
+Business Development Manager _ EcoStruxure IT,65083.2,UK,,,,5210479854,2026-05-01
+RPA Developer (Blue Prism) (IT),48901.56,"St. James, Bristol",,,,5685261617,2026-05-01
+Java Developers (all levels) (IT),58743.52,UK,,,,5594117128,2026-05-01
+Oracle Developer (Fusion / CX) (IT),70000.0,UK,,,,5707299435,2026-05-01
+Business Development Recruitment Consultant – IT,30000.0,"Epsom, Surrey",,,,5714670958,2026-05-01
+Business Development Representative – IT Infrastructure / Cloud / Networking,25000.0,"Leeds, West Yorkshire",,,,5714667913,2026-05-01
+Business Development & Account Manager - IT Industry Focus,46694.11,UK,,,,5651271458,2026-05-01
+Business Development Manager - B2B - IT Services,33719.96,"Waterloo, South East London",,,,5397771559,2026-05-01
+"IT Sales Business Development Manager - T1 MSP to Legal, PE, Financial Services",120000.0,"London, UK",,,,5706273700,2026-05-01
+Mobile Backend Developer (JAVA/Kotlin) (IT),525.0,"Irlams O' Th' Height, Salford",,,,5652540583,2026-05-01
+"Sales Development Representative, Deel IT | UKI",38040.43,UK,,,,5661484178,2026-05-01
+"Sales Development Representative, Deel IT | EMEA",41703.01,UK,,,,5661283727,2026-05-01
+Business Development Recruitment Consultant – IT & Energy,30000.0,"Birmingham, West Midlands",,,,5712980543,2026-05-01
+"IT Sales Business Development Manager - T1 MSP to Legal, PE, Financial Services",100000.0,"Central London, London",,,,5706637070,2026-05-01
+Business Development Manager - IT / Web / Backend Services (B2B),53250.27,UK,,,,5504438002,2026-05-01
+Senior Business Development Manager - IT Advisory Services (B2B),39437.4,"Waterloo, South East London",,,,5681254146,2026-05-01
+"IT and Software Development Manager – B6, Perry Barr, City and Borough of Birmingham – Care Appointments",45000.0,"Woodgate, Birmingham",,,,5697489005,2026-05-01
+Oracle Developer (Fusion / CX Sales) (IT),70000.0,UK,,,,5671974130,2026-05-01
+Software Developer - Cabinet Office - SEO (IT),52000.0,UK,,,,5705157355,2026-05-01
+French-Speaking Sales Development Representative (SDR) - SaaS / IT,51318.09,UK,,,,5671800260,2026-05-01
+Java Software Developer (DV Security Clearance) (IT),50246.28,"Lincoln, Lincolnshire",,,,5597320314,2026-05-01
+"Field New Sales Development Manager - Tech, IT, Telecoms MSP",35000.0,"Portsmouth, Hampshire",,,,5713783566,2026-05-01
+"Field New Sales Development Manager - Tech, IT, Telecoms MSP",35000.0,"Worthing, West Sussex",,,,5713784290,2026-05-01
+Senior Systems Engineer,47852.83,"Snodland, Kent",,,,5692512974,2026-05-01
+Senior Systems Engineer,46920.34,"Rochester, Kent",,,,5692512941,2026-05-01
+Senior Systems Engineer,47788.8,"Northfleet, Gravesend",,,,5692512950,2026-05-01
+Senior Systems Engineer,46269.14,"Milton Regis, Sittingbourne",,,,5692512937,2026-05-01
+Senior Systems Engineer,45123.02,"Riverhead, Sevenoaks",,,,5692512972,2026-05-01
+Senior Systems Engineer,46926.07,"Ditton, Aylesford",,,,5692512963,2026-05-01
+Senior Systems Engineer,45072.83,"Brompton, Gillingham",,,,5692512962,2026-05-01
+Senior Systems Engineer,44084.94,"Hildenborough, Tonbridge",,,,5692513007,2026-05-01
+Senior Systems Engineer,45743.87,"Penenden Heath, Maidstone",,,,5692512964,2026-05-01
+Senior Systems Engineer,48129.77,"Rushenden, Queenborough",,,,5692512949,2026-05-01
+Equity Derivatives Quant Developer - HSBC,64886.8,"London, UK",,,,5679288088,2026-05-01
+Senior Bakery/Pastry NPD Technologist- 6 month contract,46042.84,"Allington, Maidstone",,,,5704451851,2026-05-01
+Systems Integration Specialist,70000.0,"Chadderton, Oldham",,,,5709250099,2026-05-01
+Infrastructure Security Engineer,40000.0,"Chorley, Lancashire",,,,5708161315,2026-05-01
+Python Developer,33872.28,"London, UK",,,,5708923951,2026-05-01
+Lead Software Developer - Leeds (Hybrid) - c£50K,50000.0,"Leeds, West Yorkshire",,,,5692511316,2026-05-01
+Cloud Platform Security Engineer,53606.38,"Cambridge, Cambridgeshire",,,,5677168167,2026-05-01
+Group Category Manager,75000.0,"Bristol, South West England",,,,5705174907,2026-05-01
+Credit Control Analyst Graduate,30000.0,"North London, London",,,,5700792243,2026-05-01
+IT Project Manager,50000.0,"Newcastle-under-Lyme, Staffordshire",,,,5711523224,2026-05-01
+Senior Product Developer,33910.06,"Colnebridge, Huddersfield",,,,5696546929,2026-05-01
+Junior Java Developer,30000.0,UK,,,,5713819688,2026-05-01
+Cyber Security Analyst,35000.0,"Chorley, Lancashire",,,,5705261027,2026-05-01
+Infrastructure Security Engineer,35000.0,"Warrington, Cheshire",,,,5706320817,2026-05-01
+Cyber Security Analyst,35000.0,"Warrington, Cheshire",,,,5705259550,2026-05-01
+Network Security Analyst,35000.0,"Chorley, Lancashire",,,,5706317849,2026-05-01
+: Business Developer - FlexTeam Pods (Salesforce & CRM Services),49101.0,"London, UK",,,,5415417652,2026-05-01
+: Business Developer - FlexTeam Pods (Salesforce & CRM Services),47261.38,"Edinburgh, Scotland",,,,5415417895,2026-05-01
+Paralegal / LegalTech Consultant,28000.0,"London, UK",,,,5703082154,2026-05-01
+Contract C++ Quant Developer - FICC - London - Investigo,78448.59,"London, UK",,,,5714561439,2026-05-01
+AI Product Developer,37163.59,"Burnham-On-Crouch, Essex",,,,5713622639,2026-05-01
+Full Stack Developer (UK Remote) - Node / Vue,40000.0,"Henley-On-Thames, Oxfordshire",,,,5698072589,2026-05-01
+English Teacher – Outstanding School – Coventry – January 2026,42400.8,"Coventry, West Midlands",,,,5483501581,2026-05-01
+Senior Pricing Analyst (Motor),60000.0,"London, UK",,,,5705315032,2026-05-01
+Cyber Security Engineer,41367.27,"Dartford, Kent",,,,5703527610,2026-05-01
+ITAM ServiceNow Consultant,80000.0,"Manchester, Greater Manchester",,,,5700002659,2026-05-01
+Coordinator: Placements,24614.33,UK,,,,5712586511,2026-05-01
+CTRM Architect,51047.91,"London, UK",,,,5415417971,2026-05-01
+Senior IT Manager,51440.78,"Newport, Wales",,,,5657668033,2026-05-01
+Stock Controller,26000.0,"Woking, Surrey",,,,5706075832,2026-05-01
+"IT Support Technician – Independent Boys’ School, Merton",35633.96,"London, UK",,,,5582731322,2026-05-01
+Part Time Finance Manager,37684.41,"Macclesfield, Cheshire",,,,5707331454,2026-05-01
+IT Support,1.0,"Blakenhall, Wolverhampton",,,,5712659202,2026-05-01
+Account Manager - IT,54127.28,"Newbury, West Berkshire",,,,5703682434,2026-05-01
+IT Instructor,29000.0,"Brislington, Bristol",,,,5699162104,2026-05-01
+Senior Systems Engineer,48410.77,"South East London, London",,,,5715730768,2026-05-01
+"Senior Quant, Equity Derivatives - CITIC CLSA",84484.08,"London, UK",,,,5607326162,2026-05-01
+IT Delivery Partner,69789.46,"London, UK",,,,5692243567,2026-05-01
+IT Technician – Cutting-Edge Secondary School – Milton Keynes,41393.23,"Caldecotte, Milton Keynes",,,,5703918950,2026-05-01
+Systems Integration Specialist,77047.34,"Oldham, Greater Manchester",,,,5707202416,2026-05-01
+Financial controller,45000.0,"Leicester, Leicestershire",,,,5708483712,2026-05-01
+IT Technician – Forward-Thinking Secondary School – Haringey,29811.1,"London, UK",,,,5684430193,2026-05-01
+IT Technician Opportunity – Good Secondary School in Manchester – ASAP Start!,30912.85,"Manchester, Greater Manchester",,,,5683543281,2026-05-01
+IT Teacher,0.0,"Littleworth, Worcestershire",,,,5707303325,2026-05-01
+System Analyst Support,38815.02,"Warrington, Cheshire",,,,5709491315,2026-05-01
+Systems Developer,40000.0,"Beeston, Leeds",,,,5634594898,2026-05-01
+Assistant Data Reporting Analyst,35908.34,"Woolverton, Bath",,,,5698155451,2026-05-01
+IT Technician – Outstanding Secondary School – Derby,32254.95,"Derby, Derbyshire",,,,5687812814,2026-05-01
+IT Technician – Innovative Secondary School – Exeter (Devon),32859.05,"Exeter, Devon",,,,5709662328,2026-05-01
+IT Technician – Forward-Thinking Secondary School – Norwich (Norfolk),30015.22,"Norwich, Norfolk",,,,5707534779,2026-05-01
+IT Technician – Secondary School – Leeds,34009.52,"Hyde Park, Leeds",,,,5713884139,2026-05-01
+Senior Intapp Developer,50052.3,"London, UK",,,,5690484377,2026-05-01
+IT Project Manager,60000.0,"Stoke-On-Trent, Staffordshire",,,,5711886832,2026-05-01
+Commercial Property Solicitor,64609.49,"Thorney, Peterborough",,,,5714343429,2026-05-01
+Technical Solutions Designer,60313.36,"South East London, London",,,,5685103192,2026-05-01
+Receptionist,25603.64,"London, UK",,,,5712630670,2026-05-01
+Senior Analyst - Delegated Authority,62878.81,"London, UK",,,,5707331154,2026-05-01
+Systems Integration Specialist,70000.0,"Chadderton, Oldham",,,,5715238387,2026-05-01
+Business Development Manager,41567.65,"Tyne & Wear, North East England",,,,5715713071,2026-05-01
+Head of Maintenance Programme Efficiency Tools,70352.05,"London, UK",,,,5694287244,2026-05-01
+Head of Maintenance Programme Efficiency Tools,71046.05,"The City, Central London",,,,5694287287,2026-05-01
+IT Technician – Dynamic Secondary School – Haringey,40619.18,"London, UK",,,,5694694892,2026-05-01
+Pre-Sales / Solution Consultant Lead (m/f/d) - Core & Transaction Banking,75558.2,"London, UK",,,,5415418228,2026-05-01
+IT Help Desk / Service Desk Analyst,33321.0,"Birmingham, West Midlands",,,,5695019452,2026-05-01
+IT Services Sales Executive,37556.68,"Newcastle Upon Tyne, Tyne & Wear",,,,5712642912,2026-05-01
+IT Risk & Controls Lead,70000.0,"St. Albans, Hertfordshire",,,,5694467449,2026-05-01
+Accounting and Reporting Advisory Manager,55000.0,"Newcastle Upon Tyne, Tyne & Wear",,,,5708384294,2026-05-01
+Senior Cloud Data Security Engineer,56416.1,"Nottingham, Nottinghamshire",,,,5712920080,2026-05-01
+Financial Accountant,50000.0,"Wrexham, Wales",,,,5702639380,2026-05-01
+Business Development Manager,52392.71,"Kembrey Park, Swindon",,,,5687047135,2026-05-01
+Mid-Senior .NET Developer,50000.0,"Newcastle Upon Tyne, Tyne & Wear",,,,5706635742,2026-05-01
+Auto Electrician,27040.0,"Doncaster, South Yorkshire",,,,5712784678,2026-05-01
+Primary Teacher,37870.0,"London, UK",,,,5709405418,2026-05-01
+Commercial Solicitor,38000.0,"King's Lynn, Norfolk",,,,5706300715,2026-05-01
+Commercial Solicitor,38000.0,"Cambridge, Cambridgeshire",,,,5706296853,2026-05-01
+Java Training Complete Course 2022,43024.84,UK,,,,5210479581,2026-05-01
+Senior DevOps Consultant,49093.38,"London, UK",,,,5701872988,2026-05-01
+Organisational Learning Administrator,34320.0,"West London, London",,,,5713131497,2026-05-01
+Head of Architecture,94231.63,"London, UK",,,,5703523678,2026-05-01
+Care Assistant,28581.92,"Luton, Bedfordshire",,,,5707851701,2026-05-01
+AI Product Developer,37689.69,"Asheldham, Southminster",,,,5713674952,2026-05-01
+Financial Accountant,54311.88,"Wrexham, Wales",,,,5707331540,2026-05-01
+Change Business Analyst,35866.55,"Salford, Greater Manchester",,,,5708346852,2026-05-01
+Senior Network Engineer,45000.0,"Dogsthorpe, Peterborough",,,,5692986742,2026-05-01
+Account Executive,85000.0,"The City, Central London",,,,5700898647,2026-05-01
+2nd Line / Infrastructure Engineer,30000.0,UK,,,,5714678196,2026-05-01
+ESG Data Analyst,30000.0,"Rotherham, South Yorkshire",,,,5711847052,2026-05-01
+CLM Business Analyst Consultant,39147.18,"London, UK",,,,5119753407,2026-05-01
+Management Accountant,38843.02,"Whittington Moor, Chesterfield",,,,5687645652,2026-05-01
+Lead Data Scientist (Fintech / Banking),103206.69,UK,,,,5592365616,2026-05-01
+Information Security Manager or Executive,45345.83,"London, UK",,,,5699983422,2026-05-01
+Process Developer,37325.23,UK,,,,5704965197,2026-05-01
+IT Service Capacity Manager,17160.0,"Basingstoke, Hampshire",,,,5709404824,2026-05-01
+Software Developer Trainee,22000.0,"Blackpool, Lancashire",,,,5293679084,2026-05-01
+Software Developer Trainee,22000.0,"Glazebury, Warrington",,,,5293678991,2026-05-01
+Head of IT,65684.67,"Warwickshire, West Midlands",,,,5698074684,2026-05-01
+Senior Technical Business Analyst - London Stock Exchange Group,47539.66,"London, UK",,,,5662341734,2026-05-01
+ICT Teacher,32916.0,"Tunbridge Wells, Kent",,,,5695761043,2026-05-01
+IT Manager (12 Month Fixed Term Contract),39607.66,"Park Royal, North West London",,,,5692220209,2026-05-01
+IT Technician – Thriving Secondary School in Salisbury,32975.07,"Amport, Andover",,,,5513296387,2026-05-01
+IT Technician – Progressive Secondary School – Swindon,34671.24,"Stanley, Chippenham",,,,5680592024,2026-05-01
+Patent Attorney - IP Commercialisation and Licensing - Telecoms/Electronics,54807.59,"London, UK",,,,5694906668,2026-05-01
+"Functional Business Analyst, MS Dynamics 365 CRM",47081.88,"London, UK",,,,5502317899,2026-05-01
+Financial Accountant,50000.0,"Birmingham, West Midlands",,,,5702978766,2026-05-01
+Combat Systems Engineer,45000.0,"Portsmouth, Hampshire",,,,5706708189,2026-05-01
+Senior Program Manager Investment Platform,121558.27,"St Lukes, Central London",,,,5692818367,2026-05-01
+Year 5 Teacher,39000.0,UK,,,,5708485500,2026-05-01
+Head of Operations,45879.52,"Glasgow, Scotland",,,,5702634083,2026-05-01
+Scheduling Lead,49401.0,"Bearsden, East Dunbartonshire",,,,5711474047,2026-05-01
+Salesforce AI & Automation Associate,48804.09,"Edinburgh, Scotland",,,,5415417808,2026-05-01
+IT Asset Manager,58137.37,"Doncaster, South Yorkshire",,,,5695765716,2026-05-01
+Senior Compliance Analyst,57053.57,"East Midlands, UK",,,,5703681510,2026-05-01
+"Functional Business Analyst, MS Dynamics 365 CRM",49295.02,"London, UK",,,,5575614629,2026-05-01
+"Functional Business Analyst, MS Dynamics 365 CRM",51319.55,"London, UK",,,,5692038341,2026-05-01
+BI Specialist/Consultant Specialist/Pune/Markets & Sec Services IT:0000JL21,34509.17,UK,,,,5210483375,2026-05-01
+Quantitative Researcher,80965.77,"The City, Central London",,,,5684551587,2026-05-01
+Teacher of English,38041.08,"Birmingham, West Midlands",,,,5449205848,2026-05-01
+Corporate Tax Manager,50000.0,"Newcastle Upon Tyne, Tyne & Wear",,,,5693480637,2026-05-01
+Forklift Operative,30160.0,"Newport, Wales",,,,5707713022,2026-05-01
+Global Head of IT,70000.0,"Sledmere, Driffield",,,,5715236914,2026-05-01
+Residential Property Solicitor,40000.0,"Bedford, Bedfordshire",,,,5693860215,2026-05-01
+Residential Property Solicitor/Licensed Conveyancer/Legal Executive,45000.0,"Bedford, Bedfordshire",,,,5699372791,2026-05-01
+L3 Digital Lecturer,33000.0,"Leeds, West Yorkshire",,,,5705683663,2026-05-01
+Primary Teacher,39000.0,"Wigan, Greater Manchester",,,,5705688256,2026-05-01
+IT Manager,55000.0,"Exeter, Devon",,,,5698416319,2026-05-01
+Global IT Compliance Auditor,63000.72,"Newcastle Upon Tyne, Tyne & Wear",,,,5688574720,2026-05-01
+IT and Network Engineer,35000.0,"Southampton, Hampshire",,,,5712905381,2026-05-01
+Night Shift Team Manager,42419.81,UK,,,,5715713069,2026-05-01
+IT Systems Analyst,40000.0,"Maidstone, Kent",,,,5705342661,2026-05-01
+Associate Creative Director – Design & Branding,93561.65,UK,,,,5673290537,2026-05-01
+DevOps Engineer,85000.0,"Northampton, Northamptonshire",,,,5689467080,2026-05-01
+Product Owner,52000.0,"Wiltshire, South West England",,,,5709269884,2026-05-01
+12 Month Internship - Support to Global Markets Chief Operating Officer,43875.52,"London, UK",,,,5618147318,2026-05-01
+Precious Metals Trader - Associate,39057.42,"London, UK",,,,5681249267,2026-05-01
+"Solutions Architect, Global Financial Services EMEA  APJ",57834.6,"London, UK",,,,5701934714,2026-05-01
+Hire Stock Technician,25500.0,"Bromborough, Wirral",,,,5636007256,2026-05-01
+UNPAID VOLUNTEER - Web Designer,40841.44,"London, UK",,,,5415416481,2026-05-01
+Business Development Manager - ICT - £130k OTE (uncapped),75000.0,"London, UK",,,,5692244283,2026-05-01
+IT Manager,60000.0,"The City, Central London",,,,5714536354,2026-05-01
+Software Team Lead - eDV Cleared,60000.0,"London, UK",,,,5712497482,2026-05-01
+Professional Indemnity Solicitor,60000.0,"Leeds, West Yorkshire",,,,5701549399,2026-05-01
+Head Housekeeper,29000.0,"Town Centre, Telford",,,,5702086637,2026-05-01
+IT Lead,45000.0,"Liverpool, Merseyside",,,,5711944044,2026-05-01
+IT Manager - Charity,41000.0,"Telford, Shropshire",,,,5705344903,2026-05-01
+IT Manager - Charity,41000.0,"North West England, UK",,,,5705346636,2026-05-01
+Helpdesk Technical Support Engineer,0.0,"Reading, Berkshire",,,,5702717229,2026-05-01
+Marketing,33975.48,"London, UK",,,,4500003825,2026-05-01
+Finance Manager,50570.87,"Manchester, Greater Manchester",,,,5705258329,2026-05-01
+Wealth Tech Architect,143000.0,UK,,,,5715118871,2026-05-01
+eTrading Rates Business Analyst / PM - Front Office Trading Investment Bank,69087.91,"London, UK",,,,5679573105,2026-05-01
+IT Software Administrator,28000.0,"Oxford, Oxfordshire",,,,5660337641,2026-05-01
+Power Platform Consultant,45999.48,UK,,,,5633718428,2026-05-01
+IT Support Technican,22907.05,UK,,,,5689369564,2026-05-01
+Customer Service Administrator,26000.0,"Aldershot, Hampshire",,,,5715139655,2026-05-01
+C++ Programming in Hindi,25446.92,UK,,,,5210480024,2026-05-01
+2nd/3rd line Support Engineer (MSP Experience Required),33000.0,"Basingstoke, Hampshire",,,,5702717230,2026-05-01
+Head of Residential Conveyancing,55000.0,"Chester, Cheshire",,,,5711769735,2026-05-01
+Business Services Manager,42000.0,"Barnsley, South Yorkshire",,,,5695765680,2026-05-01
+Business Development Executive,24000.0,"Birtley, Chester Le Street",,,,5693759754,2026-05-01
+Systems Integration Specialist,70000.0,"Oldham, Greater Manchester",,,,5707001344,2026-05-01
+Product Owner,52000.0,"South Marston, Swindon",,,,5711388583,2026-05-01
