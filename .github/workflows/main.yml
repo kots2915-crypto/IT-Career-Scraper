@@ -25,11 +25,14 @@ jobs:
 
       - name: Run Scraper
         run: python scraper.py
-
-      - name: Commit and Push changes
+      - name: Commit and Push
         run: |
-          git config --global user.name "Auto-Bot"
-          git config --global user.email "bot@github.com"
-          git add daily_jobs.csv
-          git commit -m "Update daily data" || exit 0
-          git push
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          if [ -f daily_jobs.csv ]; then
+            git add daily_jobs.csv
+            git commit -m "Cập nhật dữ liệu ngày $(date +'%d-%m-%Y')"
+            git push
+          else
+            echo "Không có dữ liệu mới để cập nhật hôm nay."
+          fi
