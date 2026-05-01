@@ -1,3 +1,2 @@
-﻿job_title,salary,date
-Data Analyst (HCM),"15,000,000 - 25,000,000",01-05-2026
-Python Developer (HN),"20,000,000 - 35,000,000",01-05-2026
+﻿job_title,salary_min,location,source,trend,last_updated
+Data Scientist (VN),25000000,HCMC,Manual Scrape,🔥 High Demand,2026-05-01 11:25
