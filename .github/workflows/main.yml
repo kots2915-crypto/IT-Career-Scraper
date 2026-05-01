@@ -1,0 +1,35 @@
+name: Daily Data Scraper
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Chạy tự động vào 00:00 mỗi ngày (giờ UTC)
+  workflow_dispatch: # Cho phép bạn bấm nút chạy thủ công bất cứ lúc nào
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Selenium and Chrome
+        run: |
+          pip install selenium pandas
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      - name: Run Scraper
+        run: python scraper.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "Auto-Bot"
+          git config --global user.email "bot@github.com"
+          git add daily_jobs.csv
+          git commit -m "Update daily data" || exit 0
+          git push
