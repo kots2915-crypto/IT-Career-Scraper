@@ -1,52 +1,58 @@
-import os
 import pandas as pd
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import time
 
-# 1. Cấu hình chạy ngầm trên máy chủ GitHub
+# Cấu hình robot chạy ngầm
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
+# Giả lập như trình duyệt thật để tránh bị chặn
+chrome_options.add_argument("--window-size=1920,1080")
+chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 
 driver = webdriver.Chrome(options=chrome_options)
 
 def scrape_data():
-    print("🚀 Robot đang bắt đầu cào dữ liệu thực tế...")
-    url = "https://itviec.com/it-jobs" 
+    print("🚀 Đang tiến vào 'mỏ dữ liệu'...")
+    url = "https://itviec.com/it-jobs"
     driver.get(url)
-    time.sleep(7) # Đợi trang tải kỹ hơn để tránh bị trống dữ liệu
+    time.sleep(10) # Đợi lâu hơn một chút cho trang tải hết
 
     jobs = []
-    # ĐÃ SỬA LỖI: Dùng find_elements (chuẩn Selenium) thay vì find_all
-    # Mình dùng CSS_SELECTOR để robot tìm chính xác khung của từng công việc
-    elements = driver.find_elements(By.CSS_SELECTOR, ".job-card") 
+    # Thử tìm kiếm bằng nhiều loại "mật mã" khác nhau
+    selectors = [".job-card", ".job_content", ".job-item", ".c-job-card"]
+    
+    elements = []
+    for selector in selectors:
+        elements = driver.find_elements(By.CSS_SELECTOR, selector)
+        if elements:
+            print(f"✅ Tìm thấy dữ liệu bằng mã: {selector}")
+            break
 
     for item in elements:
         try:
-            # Lấy tên công việc
-            title = item.find_element(By.TAG_NAME, "h2").text
-            # Lấy địa điểm
-            location = item.find_element(By.CLASS_NAME, "city").text
+            # Tìm tên công việc (thử các thẻ h2 hoặc h3)
+            title = item.find_element(By.CSS_SELECTOR, "h2, h3").text
+            # Tìm địa điểm
+            location = item.find_element(By.CSS_SELECTOR, ".city, .location").text
             
             jobs.append({
                 "job_title": title, 
                 "location": location, 
-                "date": time.strftime("%Y-%m-%d")
+                "date": time.strftime("%d-%m-%Y")
             })
         except:
-            continue # Nếu 1 tin bị lỗi thì bỏ qua để lấy tin tiếp theo
+            continue
 
     if jobs:
         df = pd.DataFrame(jobs)
-        # Lưu file với định dạng utf-8-sig để không bị lỗi font tiếng Việt khi mở bằng Excel
         df.to_csv("daily_jobs.csv", index=False, encoding='utf-8-sig')
-        print(f"✅ Thành công! Đã lấy được {len(jobs)} tin mới nhất.")
+        print(f"🎉 Tuyệt vời! Đã thu hoạch được {len(jobs)} tin.")
     else:
-        print("⚠️ Cảnh báo: Không tìm thấy tin nào. Có thể trang web đã thay đổi cấu trúc.")
+        print("⚠️ Cảnh báo: Robot đi về tay không. Không tìm thấy tin nào.")
 
 if __name__ == "__main__":
     try:
