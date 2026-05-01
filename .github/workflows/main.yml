@@ -24,6 +24,9 @@ jobs:
           sudo apt-get install -y google-chrome-stable
 
       - name: Run Scraper
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: python scraper.py
       - name: Commit and Push
         run: |
