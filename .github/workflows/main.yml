@@ -29,13 +29,15 @@ jobs:
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: python scraper.py
       - name: Commit and Push
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          if [ -f daily_jobs.csv ]; then
-            git add daily_jobs.csv
-            git commit -m "Cập nhật dữ liệu ngày $(date +'%d-%m-%Y')"
-            git push
-          else
-            echo "Không có dữ liệu mới để cập nhật hôm nay."
-          fi
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        
+        git add data/*.csv
+        
+        if git diff --staged --quiet; then
+          echo "Không có dữ liệu mới để cập nhật."
+        else
+          git commit -m "Auto update: New jobs found"
+          git push
+        fi
