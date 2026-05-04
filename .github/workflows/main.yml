@@ -3,7 +3,13 @@ name: Daily Data Scraper
 on:
   schedule:
     - cron: '0 0 * * *' # Chạy tự động vào 00:00 mỗi ngày (giờ UTC)
-  workflow_dispatch: # Cho phép bạn bấm nút chạy thủ công bất cứ lúc nào
+  workflow_dispatch:      # Cho phép bạn bấm nút chạy thủ công bất cứ lúc nào
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write         # Cấp quyền ghi để có thể Push dữ liệu lên Github
 
 jobs:
   build:
@@ -19,25 +25,30 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install selenium pandas requests
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
+          pip install pandas requests
+          # Chỉ giữ Selenium/Chrome nếu file scraper.py thực sự dùng đến nó
+          # pip install selenium 
+          # sudo apt-get update
+          # sudo apt-get install -y google-chrome-stable
 
       - name: Run Scraper
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: python scraper.py
+
       - name: Commit and Push
-      run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
-        
-        git add data/*.csv
-        
-        if git diff --staged --quiet; then
-          echo "Không có dữ liệu mới để cập nhật."
-        else
-          git commit -m "Auto update: New jobs found"
-          git push
-        fi
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          
+          # Thêm các file csv mới vào hàng chờ
+          git add data/*.csv
+          
+          # Kiểm tra nếu có thay đổi thì mới commit, tránh báo lỗi đỏ
+          if git diff --staged --quiet; then
+            echo "Không có dữ liệu mới để cập nhật hôm nay."
+          else
+            git commit -m "Auto update: New jobs found"
+            git push
+          end
