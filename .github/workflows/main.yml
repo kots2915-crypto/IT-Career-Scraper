@@ -45,10 +45,10 @@ jobs:
           # Thêm các file csv mới vào hàng chờ
           git add data/*.csv
           
-          # Kiểm tra nếu có thay đổi thì mới commit, tránh báo lỗi đỏ
+          # Kiểm tra nếu có thay đổi thì mới commit
           if git diff --staged --quiet; then
             echo "Không có dữ liệu mới để cập nhật hôm nay."
           else
             git commit -m "Auto update: New jobs found"
             git push
-          end
+          fi
