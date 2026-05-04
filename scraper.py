@@ -1,69 +1,68 @@
 import requests
 import pandas as pd
-import time
-from datetime import datetime, timedelta
 import os
+from datetime import datetime, timedelta
 
+# Cấu hình
 APP_ID = os.getenv('ADZUNA_APP_ID')
 APP_KEY = os.getenv('ADZUNA_APP_KEY')
+HISTORY_FILE = "data/full_history.csv"
+DAILY_FILE = "data/daily_job.csv"
 
-def fetch_adzuna_data(pages=5):
-    # (Giữ nguyên phần này như code cũ)
+def fetch_data(country):
     all_jobs = []
-    print(f"📡 Đang bắt đầu thu thập dữ liệu từ {pages} trang Adzuna...")
-    for page in range(1, pages + 1):
-        url = f"https://api.adzuna.com/v1/api/jobs/gb/search/{page}?app_id={APP_ID}&app_key={APP_KEY}&results_per_page=50&what=it%20developer"
+    # Cào 10 trang để đảm bảo có khoảng 500 job/nước
+    for page in range(1, 11):
+        url = f"https://api.adzuna.com/v1/api/jobs/{country}/search/{page}?app_id={APP_ID}&app_key={APP_KEY}&results_per_page=50&what=it%20data"
         try:
-            response = requests.get(url)
-            if response.status_code == 200:
-                results = response.json().get('results', [])
-                for item in results:
+            res = requests.get(url, timeout=10)
+            if res.status_code == 200:
+                for item in res.json().get('results', []):
                     all_jobs.append({
-                        "id": item.get('id'),
+                        "id": str(item.get('id')),
                         "job_title": item.get('title'),
-                        "salary_min": item.get('salary_min'),
-                        "location": item.get('location', {}).get('display_name', 'International'),
-                        "date_scraped": time.strftime("%Y-%m-%d") # Lưu ngày dạng YYYY-MM-DD
+                        "company": item.get('company', {}).get('display_name'), # Lấy tên công ty chuẩn
+                        "salary": item.get('salary_min'),
+                        "location": item.get('location', {}).get('display_name'),
+                        "raw_date": datetime.now().strftime("%Y-%m-%d")
                     })
-                print(f"   ✅ Đã lấy xong trang {page}")
-            time.sleep(1) 
-        except:
-            continue
-    return pd.DataFrame(all_jobs)
+        except: continue
+    return all_jobs
 
-def accumulate_data():
-    df_new = fetch_adzuna_data(pages=5)
-    file_path = "daily_jobs.csv"
+def run():
+    # 1. Cào dữ liệu mới
+    new_jobs = fetch_data('gb') + fetch_data('us')
+    df_new = pd.DataFrame(new_jobs)
     
-    if os.path.exists(file_path):
-        df_old = pd.read_csv(file_path)
-        df_final = pd.concat([df_old, df_new], ignore_index=True)
+    # 2. Lọc trùng bằng ID với file Lịch sử
+    if os.path.exists(HISTORY_FILE):
+        df_history = pd.read_csv(HISTORY_FILE)
+        df_history['id'] = df_history['id'].astype(str)
+        # Chỉ lấy những cái ID chưa từng xuất hiện
+        df_new_unique = df_new[~df_new['id'].isin(df_history['id'])]
     else:
-        df_final = df_new
+        df_new_unique = df_new
+        df_history = pd.DataFrame(columns=['id', 'raw_date'])
 
-    # Loại bỏ trùng lặp
-    df_final = df_final.drop_duplicates(subset=['id'], keep='last')
+    # 3. Cập nhật kho lịch sử (Chỉ lưu ID và Ngày để siêu nhẹ)
+    new_history_entries = df_new_unique[['id', 'raw_date']]
+    df_history_updated = pd.concat([df_history, new_history_entries], ignore_index=True)
     
-    # 🧹 CHIẾN THUẬT CỬA SỔ TRƯỢT: Giới hạn dữ liệu
-    # 1. Chuyển cột date_scraped sang dạng thời gian
-    df_final['date_scraped'] = pd.to_datetime(df_final['date_scraped'])
+    # Dọn dẹp kho: Chỉ giữ ID của 30 ngày gần nhất cho nhẹ máy
+    df_history_updated['raw_date'] = pd.to_datetime(df_history_updated['raw_date'])
+    cutoff = datetime.now() - timedelta(days=30)
+    df_history_updated = df_history_updated[df_history_updated['raw_date'] >= cutoff]
     
-    # 2. Tính mốc thời gian (Ví dụ: 30 ngày trước)
-    cutoff_date = datetime.now() - timedelta(days=30)
-    
-    # 3. Chỉ giữ lại những tin cào được sau mốc thời gian đó
-    before_purge = len(df_final)
-    df_final = df_final[df_final['date_scraped'] >= cutoff_date]
-    after_purge = len(df_final)
-    
-    # Chuyển ngược lại về dạng text để lưu CSV cho đẹp
-    df_final['date_scraped'] = df_final['date_scraped'].dt.strftime('%Y-%m-%d')
-    
-    print(f"♻️ Đã dọn dẹp {before_purge - after_purge} tin quá hạn (cũ hơn 30 ngày).")
-    print(f"📊 Dữ liệu sạch hiện tại: {len(df_final)} dòng.")
+    # Lưu lại kho lịch sử
+    os.makedirs('data', exist_ok=True)
+    df_history_updated.to_csv(HISTORY_FILE, index=False)
 
-    # Lưu lại
-    df_final.to_csv(file_path, index=False, encoding='utf-8-sig')
+    # 4. Lưu file Daily (Xóa cột ID đi để đồng bộ với VN)
+    # File này chỉ chứa hàng mới tinh của ngày hôm nay
+    df_daily = df_new_unique.drop(columns=['id']) 
+    df_daily.to_csv(DAILY_FILE, index=False, encoding='utf-8-sig')
+    
+    print(f"✅ Đã lọc xong! Có {len(df_daily)} job mới tinh.")
 
 if __name__ == "__main__":
-    accumulate_data()
+    run()
