@@ -36,5 +36,6 @@ jobs:
       - name: Auto Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-sync: Update jobs from Adzuna"
+          commit_message: "Auto-sync: New jobs found"
           file_pattern: 'data/*.csv'
+          push_options: '--force' 
