@@ -1,5 +1,532 @@
 ﻿job_title,company,salary,location,raw_date
-Business Systems & Reporting Analyst,Commercial,40000.0,"Wellingborough, Northamptonshire",2026-05-04
-Senior D365 Finance Analyst,TALENT INTERNATIONAL UK LTD,55000.0,UK,2026-05-04
-Commercial Director,Glen Callum Associates Ltd,90000.0,"Semilong, Northampton",2026-05-04
-Commercial Director,Glen Callum Associates Ltd,90000.0,"Baginton, Coventry",2026-05-04
+Senior Asset and Operations Manager,Astute People,90000.0,"Farringdon, Central London (GB)",2026-05-04
+Data Integration Engineer VP,cer Financial Ltd,169000.0,"London, UK (GB)",2026-05-04
+Data Integration Engineer VP - CER Financial,CER Financial,87296.5,"London, UK (GB)",2026-05-04
+Oracle APEX Consultant,Frontier Resourcing,61694.8,"Farringdon, Central London (GB)",2026-05-04
+Head of Maintenance Programme Efficiency Tools,Selint Aviation - Executive Search,70352.05,"London, UK (GB)",2026-05-04
+Head of Maintenance Programme Efficiency Tools,Selint Aviation - Executive Search,71046.05,"The City, Central London (GB)",2026-05-04
+AI & Digital Champion Coach (All levels),Baltic Apprenticeships,28840.0,"Hurworth Moor, Darlington (GB)",2026-05-04
+Account Executive | Life Sciences,Dotmatics,56660.02,UK (GB),2026-05-04
+Enterprise Account Executive,Benchling,60977.14,"London, UK (GB)",2026-05-04
+Senior Backend Developer,TripleTen,67188.17,"London, UK (GB)",2026-05-04
+Applied Automation Engineer,Harnham - Data & Analytics Recruitment,60000.0,"London, UK (GB)",2026-05-04
+Lead Sales Engineer,Alteryx,54293.65,"London, UK (GB)",2026-05-04
+Senior Data & Machine Learning Engineer,Forward Role,65000.0,"Cheshire, North West England (GB)",2026-05-04
+Technical Support Professional,IBM,40267.43,UK (GB),2026-05-04
+Software Developer,ibm,48871.95,UK (GB),2026-05-04
+Technical Delivery Consultant - INTERN,See Change,30913.91,"Collyhurst, Manchester (GB)",2026-05-04
+AI Officer,Salutem Careers,46805.39,"Windsor Castle, Windsor (GB)",2026-05-04
+AI Officer,Salutem Care And Education,35000.0,UK (GB),2026-05-04
+"Solutions Architect, Financial Services - Data Center and Infrastructure",NVIDIA,88246.21,"Reading, Berkshire (GB)",2026-05-04
+Forward Deployed Engineer - UK,Hammerspace,65549.12,UK (GB),2026-05-04
+Senior Project Lead Statistician (UK),UCB,87578.77,"Slough, Berkshire (GB)",2026-05-04
+Test Engineer,UCAS,47082.24,UK (GB),2026-05-04
+Manufacturing Digitalisation SPOC,GPW Recruitment,46587.0,"Speke, Liverpool (GB)",2026-05-04
+Technical Support Professional,IBM,38946.73,UK (GB),2026-05-04
+Software Engineer,IBM,45196.06,UK (GB),2026-05-04
+Software Engineer,IBM,45791.18,UK (GB),2026-05-04
+Java Fullstack Software Developer,ibm,48829.84,UK (GB),2026-05-04
+Software Engineer,IBM,45870.07,UK (GB),2026-05-04
+Incident & Problem Manager,UCAS,40893.75,UK (GB),2026-05-04
+Product Owner,UCAS,46075.88,UK (GB),2026-05-04
+Technical Support Professional,ibm,36344.26,UK (GB),2026-05-04
+Full Stack Developer,ibm,50753.6,UK (GB),2026-05-04
+Software Test,ibm,43312.27,UK (GB),2026-05-04
+Full Stack Developer,ibm,48164.49,UK (GB),2026-05-04
+DevOps,ibm,46516.5,UK (GB),2026-05-04
+Head of Data Science,Halfords Careers,55540.07,"Worcestershire, West Midlands (GB)",2026-05-04
+Global Head of Risk Solutions,Quantexa,86518.66,"London, UK (GB)",2026-05-04
+Senior MLOps Engineer,ibm,58174.75,UK (GB),2026-05-04
+Senior Manager Demand Generation,ThermoFisher Scientific,56330.62,UK (GB),2026-05-04
+Technical Support Engineer - Cloud/API,ibm,42232.03,UK (GB),2026-05-04
+Software developer,ibm,64258.37,UK (GB),2026-05-04
+Digital Data & Consent Lead,Prudential Distribution,47892.41,"Edinburgh, Scotland (GB)",2026-05-04
+Senior - Data Engineer,ey,45251.79,UK (GB),2026-05-04
+Lead Data Architect,Novo Nordisk,50052.92,"London, UK (GB)",2026-05-04
+Back End (C# .NET) Software Engineer,Thermo Fisher Scientific,65430.65,UK (GB),2026-05-04
+"Finance Director, Software Forecasting & Planning",PlayStation Global,104451.94,"London, UK (GB)",2026-05-04
+Back End (C# .NET) Software Engineer,ThermoFisher Scientific,57953.03,UK (GB),2026-05-04
+Technical Operations Administrator,Spirax-Sarco Ltd.,42339.3,"Skelmersdale, Lancashire (GB)",2026-05-04
+"Sr. Director, Analyst – Data & Analytics and AI Transformation in Procurement (Remote - EMEA)",Gartner,74692.3,UK (GB),2026-05-04
+Senior Database Developer with Security Clearance,The Swift Group,147486.39,"Herndon, Fairfax County (US)",2026-05-04
+Full Stack Software Engineer with Security Clearance,The Swift Group,193351.31,"Herndon, Fairfax County (US)",2026-05-04
+Software Engineer with Security Clearance,The Swift Group,184685.48,"Columbia, Howard County (US)",2026-05-04
+Senior Database Developer with Security Clearance,The Swift Group,146042.8,"Herndon, Fairfax County (US)",2026-05-04
+Senior Database Engineer with Security Clearance,The Swift Group,150542.53,"Herndon, Fairfax County (US)",2026-05-04
+Information Systems Security Engineer (ISSE) with Security Clearance,The Swift Group,116732.55,"Fort Belvoir, Fairfax County (US)",2026-05-04
+Senior Data Engineer with Security Clearance,The Swift Group,151366.27,"Reston, Fairfax County (US)",2026-05-04
+Senior Cloud Engineer with Security Clearance,The Swift Group,166147.44,"Reston, Fairfax County (US)",2026-05-04
+Senior Data Engineer with Security Clearance,The Swift Group,151086.19,"Herndon, Fairfax County (US)",2026-05-04
+Mechanical Engineer with OCONUS Travel with Security Clearance,The Swift Group,178987.08,"Dulles Town Center, Loudoun County (US)",2026-05-04
+Software Engineer with Security Clearance,The Swift Group,225581.97,"Fairfax, Fairfax County (US)",2026-05-04
+Software Engineer with Security Clearance,The Swift Group,238607.69,"Augusta, Richmond County (US)",2026-05-04
+Hybrid - Software Application Developer with Security Clearance,The Swift Group,192942.03,"Herndon, Fairfax County (US)",2026-05-04
+Platform Engineer with Security Clearance,The Swift Group,175953.38,"Fort Sam Houston, Bexar County (US)",2026-05-04
+Information Systems Security Engineer (ISSE) with Security Clearance,The Swift Group,141999.5,"Reston, Fairfax County (US)",2026-05-04
+DevOps Engineer with Security Clearance,The Swift Group,148899.66,"Columbia, Howard County (US)",2026-05-04
+DevOps Engineer with Security Clearance,The Swift Group,181027.0,"Fort Sam Houston, Bexar County (US)",2026-05-04
+Platform Engineer with Security Clearance,The Swift Group,144726.33,"Columbia, Howard County (US)",2026-05-04
+Software Engineer with Security Clearance,The Swift Group,140253.36,"Newport News, Newport News City (US)",2026-05-04
+Software Engineer with Security Clearance,The Swift Group,149573.7,"Norfolk, Norfolk City (US)",2026-05-04
+DevOps Engineer with Security Clearance,The Swift Group,192373.56,"Augusta, Richmond County (US)",2026-05-04
+Systems Administrator with Security Clearance,The Swift Group,119740.8,"Laurel, Prince George's County (US)",2026-05-04
+Configuration Specialist / SME with Security Clearance,The Swift Group,97567.19,"Manassas, Prince William County (US)",2026-05-04
+Information Systems Security Engineer (ISSE) with Security Clearance,The Swift Group,129616.21,"Fairfax, Fairfax County (US)",2026-05-04
+Data Scientist - Mentorship and Training with Security Clearance,The Swift Group,109178.2,"Fairfax, Fairfax County (US)",2026-05-04
+Electrical Engineer with OCONUS Travel with Security Clearance,The Swift Group,250516.52,"Dulles Town Center, Loudoun County (US)",2026-05-04
+Software Engineer with Security Clearance,The Swift Group,172464.25,"Fairfax, Fairfax County (US)",2026-05-04
+Hybrid - Software Engineer with Security Clearance,The Swift Group,199845.4,"Herndon, Fairfax County (US)",2026-05-04
+DevOps Engineer with Security Clearance,The Swift Group,175743.25,"Reston, Fairfax County (US)",2026-05-04
+Software Engineer SME with Security Clearance,The Swift Group,231311.05,"Herndon, Fairfax County (US)",2026-05-04
+Software Application Developer with Security Clearance,The Swift Group,196846.0,"Herndon, Fairfax County (US)",2026-05-04
+Cloud Engineer with Security Clearance,The Swift Group,243204.77,"Chantilly, Fairfax County (US)",2026-05-04
+Software Engineer with Security Clearance,The Swift Group,149695.84,"Norfolk, Norfolk City (US)",2026-05-04
+Senior Systems Engineer (Cloud and Platform Engineering) with Security Clearance,The Swift Group,147416.92,"Chantilly, Fairfax County (US)",2026-05-04
+Platform Engineer with Security Clearance,The Swift Group,144759.6,"Columbia, Howard County (US)",2026-05-04
+Software Engineer - Frontend with Security Clearance,The Swift Group,188171.34,"Chantilly, Fairfax County (US)",2026-05-04
+Enterprise Architect with Security Clearance,The Swift Group,263780.1,"Fairfax, Fairfax County (US)",2026-05-04
+Data Scientist with Security Clearance,The Swift Group,133579.62,"Seybold, Miami-Dade County (US)",2026-05-04
+Recruiting Manager with Security Clearance,Barbaricum,119667.29,"East Lake-Orient Park, Hillsborough County (US)",2026-05-04
+Software Engineer - Backend with Security Clearance,The Swift Group,196075.02,"Chantilly, Fairfax County (US)",2026-05-04
+"IT Applications Engineer V - Data Science, Data & AI Engineering, Application Engineering",Kaiser,165015.69,"Pleasanton, Alameda County (US)",2026-05-04
+Network Engineer with Security Clearance,The Swift Group,223270.9,"Herndon, Fairfax County (US)",2026-05-04
+Network Engineer with Security Clearance,The Swift Group,154788.77,"Fairfax, Fairfax County (US)",2026-05-04
+Cloud Engineer Intern,ATPCO,54434.67,"Herndon, Fairfax County (US)",2026-05-04
+Telecommunications Specialist with Security Clearance,The Swift Group,99055.36,"Fairfax, Fairfax County (US)",2026-05-04
+Systems Engineer with Security Clearance,The Swift Group,138340.58,"Chantilly, Fairfax County (US)",2026-05-04
+"AI Generalist-Huntsville, AL with Security Clearance","DirectViz, LLC",138680.45,"Huntsville, Madison County (US)",2026-05-04
+Junior Revenue Growth Management Analyst,Swire Coca Cola,108920.28,"Draper, Salt Lake County (US)",2026-05-04
+Network Administrator with Security Clearance,Scientific Research Corporation,113155.09,"Beachville, St. Mary's County (US)",2026-05-04
+Network Administrator (Mid-Level) with Security Clearance,Scientific Research Corporation,108618.22,"Egypt Lake-Leto, Hillsborough County (US)",2026-05-04
+Network Engineer with Security Clearance,The Swift Group,195921.0,"Chantilly, Fairfax County (US)",2026-05-04
+IT Program Manager with Security Clearance,The Swift Group,157991.86,"Herndon, Fairfax County (US)",2026-05-04
+Supply Chain Strategy Manager,Lennox,164380.52,"Richardson, Lawrence County (US)",2026-05-04
+Senior Talent Acquisition Partner,Aegis Worldwide,100083.73,"Troy, Pike County (US)",2026-05-04
+"Inventory Planning Systems, Sr Manager",CVS Health,150365.75,"Woonsocket, Providence County (US)",2026-05-04
+Senior Talent Acquisition Sourcing Partner,eShocan,98326.51,"Troy, Pike County (US)",2026-05-04
+Director/Senior Director/ Executive Director: Digital Innovation & Technology Strategy - Global PK/PD & Pharmacometrics,Lilly,272144.28,"Uptown, Marion County (US)",2026-05-04
+Director/Senior Director/ Executive Director: Digital Innovation & Technology Strategy - Global PK/PD & Pharmacometrics,Lilly,209149.97,"Boston, Suffolk County (US)",2026-05-04
+"Senior Product Marketing Manager, AI Solutions – Healthcare",HP,147050.0,"Fort Collins, Larimer County (US)",2026-05-04
+Senior Analytics Engineer,Harnham,104400.35,"Indianapolis, Marion County (US)",2026-05-04
+Senior Technical Product Manager,Booz Allen Hamilton,99000.0,"Mc Lean, Fairfax County (US)",2026-05-04
+Data Engineer,Covista,113266.73,"Lisle, DuPage County (US)",2026-05-04
+Claims Transformation Domain Lead,Chubb,180000.0,"Jersey City, Hudson County (US)",2026-05-04
+Senior Customer Engineer - CTJ - TS/SCI with Security Clearance,Microsoft Corporation,186891.36,"Reston, Fairfax County (US)",2026-05-04
+Cloud Application Engineer,Trabus Technologies,110000.0,"San Diego, San Diego County (US)",2026-05-04
+Project Manager (Data Science),Vizient,68500.0,"Irving, Dallas (US)",2026-05-04
+Senior Project Manager (Data Science),Vizient,88900.0,"Irving, Dallas (US)",2026-05-04
+"AI Enablement Program Manager (Teradyne, North Reading)",Teradyne,169690.56,"North Reading, Middlesex County (US)",2026-05-04
+"Senior Director, AI & Data Engineering",Structure Therapeutics,265000.0,"South San Francisco, San Mateo County (US)",2026-05-04
+Recruiting Manager,Barbaricum,108518.2,US (US),2026-05-04
+Systems Analyst I with Security Clearance,Scientific Research Corporation,82621.9,"Beachville, St. Mary's County (US)",2026-05-04
+Business Development Manager,NextGen Invent Corporation,181947.78,"Grand Central, Manhattan (US)",2026-05-04
+"AI Generalist-Huntsville, AL","DirectViz Solutions, LLC",128409.48,"Redstone Arsenal, Madison County (US)",2026-05-04
+Principal Advanced Cloud Engineer Manager (ACE)- CTJ-Poly with Security Clearance,Microsoft Corporation,237961.39,"Reston, Fairfax County (US)",2026-05-04
+Trener Programowania dla dzieci i młodzieży,Coding Giants,86807.02,"New York City, New York (US)",2026-05-04
+Software Engineer (Entry-Senior) - Navy Training & Simulation Sy with Security Clearance,HII Mission Technologies,138040.89,"Virginia Beach, Virginia Beach City (US)",2026-05-04
+"Management Consultant, Life Sciences",BIP US,211012.6,"Philadelphia, Philadelphia County (US)",2026-05-04
+"Management Consultant, Life Sciences",BIP US,201050.11,"Boston, Thomas County (US)",2026-05-04
+Technical Writer- TS/SCI with Polygraph,General Dynamics Information Technology,94925.79,"Vienna, Dooly County (US)",2026-05-04
+Security Customer Experience Engineer II,Microsoft Corporation,98916.88,"Redmond, King County (US)",2026-05-04
+"Manager, Product Stewardship & Regulatory Affairs",Johnson Controls,154847.1,US (US),2026-05-04
+Network Administrator (Mid-Level),Scientific Research Corporation,105481.2,"Egypt Lake-Leto, Hillsborough County (US)",2026-05-04
+Principal Wireless Standards Engineer,EchoStar,132770.61,"Littleton, Arapahoe County (US)",2026-05-04
+Database Administrator (OBA) (TS/SCI with Poly),Solerity,145421.55,"Pimmit, Fairfax County (US)",2026-05-04
+Technical Writer (TS/SCI with Poly),Solerity,158216.38,"Pimmit, Fairfax County (US)",2026-05-04
+Enterprise Architect (TS/SCI with Poly),Solerity,168635.02,"Pimmit, Fairfax County (US)",2026-05-04
+Asset Manager (TS/SCI with Poly),Solerity,175512.11,"Pimmit, Fairfax County (US)",2026-05-04
+IT Operations Manager (TS/SCI with Poly),Solerity,140422.94,"Pimmit, Fairfax County (US)",2026-05-04
+Product Support Engineer (TS/SCI with Poly),Solerity,139758.4,"Pimmit, Fairfax County (US)",2026-05-04
+ServiceNow Administrator (TS/SCI with Poly),Solerity,156344.61,"Pimmit, Fairfax County (US)",2026-05-04
+Endpoint Engineer (TS/SCI with Poly),Solerity,154438.28,"Pimmit, Fairfax County (US)",2026-05-04
+Cloud Solutions Architect (TS/SCI with Poly),Solerity,166329.6,"Pimmit, Fairfax County (US)",2026-05-04
+Information Systems Security Engineer ISSE (TS/SCI with Poly),Solerity,154547.61,"Pimmit, Fairfax County (US)",2026-05-04
+Change Manager (TS/SCI with Poly),Solerity,174917.73,"Pimmit, Fairfax County (US)",2026-05-04
+Automation Engineer (TS/SCI with Poly),Solerity,144040.61,"Pimmit, Fairfax County (US)",2026-05-04
+IT Service Manager (TS/SCI with Poly),Solerity,174932.75,"Pimmit, Fairfax County (US)",2026-05-04
+Network Administrator,Scientific Research Corporation,111468.8,"Beachville, St. Mary's County (US)",2026-05-04
+Senior Product Manager - Commercial AI,Hexion Careers,120089.14,US (US),2026-05-04
+"Intern, Marketing: Audience & CDP Strategy (Summer 2026)",Chamberlain Group,69688.04,"Oak Brook, DuPage County (US)",2026-05-04
+Intelligent Automation Developer II - UiPath/Agentic AI,CareSource Management Services,72200.0,US (US),2026-05-04
+Platform Engineer (TS/SCI with Poly),Solerity,159286.44,"Pimmit, Fairfax County (US)",2026-05-04
+DevSecOps Engineer (TS/SCI with Poly),Solerity,168717.69,"Pimmit, Fairfax County (US)",2026-05-04
+Security Operations Engineer (SOE) (TS/SCI with Poly),Solerity,162540.27,"Pimmit, Fairfax County (US)",2026-05-04
+Client Principal - AI Consulting (Property & Casualty Insurance),CloudFactory,225012.38,"Boston, Suffolk County (US)",2026-05-04
+Client Principal - AI Consulting (Property & Casualty Insurance),CloudFactory,227413.25,"Washington, D.C., US (US)",2026-05-04
+Client Principal - AI Consulting (Property & Casualty Insurance),CloudFactory,196977.64,"Durham, Durham County (US)",2026-05-04
+Client Principal - AI Consulting (Property & Casualty Insurance),CloudFactory,247758.06,"Chelsea and Clinton, Manhattan (US)",2026-05-04
+"Applied Data Scientist/Hybrid/ Lehi, UT","Motion Recruitment Partners, LLC",91487.17,"Cedar Pass, Utah County (US)",2026-05-04
+Senior Customer Experience Engineer,Microsoft Corporation,178408.69,"Redmond, King County (US)",2026-05-04
+Customer Experience Engineer,Microsoft Corporation,110248.45,"Redmond, King County (US)",2026-05-04
+"Enterprise Asset Management (EAM) Analyst, Emerging Talent Intern (Fall)",Metropolitan Transportation Authority,33116.64,"New York City, New York (US)",2026-05-04
+Cybersecurity AI Architect,onsemi,147330.06,"Scottsdale, Maricopa County (US)",2026-05-04
+Infrastructure Engineer (TS/SCI with Poly),Solerity,164127.53,"Pimmit, Fairfax County (US)",2026-05-04
+Network Engineer (TS/SCI with Poly),Solerity,148171.83,"Mc Lean, Fairfax County (US)",2026-05-04
+Software Engineer,Booz Allen Hamilton,179003.64,"Triangle, Prince William County (US)",2026-05-04
+"Product Owner ::: San Antonio, TX ::: Long Term",VRN Technologies,89561.98,"Fort Sam Houston, Bexar County (US)",2026-05-04
+Software Engineer with Security Clearance,Booz Allen Hamilton,162192.03,"Triangle, Prince William County (US)",2026-05-04
+Supply Chain Strategy Manager,Lennox International,170197.36,"Richardson, Dallas (US)",2026-05-04
+"Solution Architect, Customer Data and MarTech",Academy,181474.34,"Katy, Harris County (US)",2026-05-04
+Customer Experience Engineering,Microsoft Corporation,169607.23,"Atlanta, Fulton County (US)",2026-05-04
+AI Leads - Clinical/Drug Substance/Drug Product with CDMO (Contract Development and Manufacturing Organization) Exp. (Remote),OMG Technologies,124835.2,US (US),2026-05-04
+BI & Analytics Manager,Altitude Technology Solutions Inc,124520.95,"Tyler, Smith County (US)",2026-05-04
+Lead Product Manager- Insights & Reporting Data Direct (P161),8451,125000.0,US (US),2026-05-04
+Senior Endpoint Engineer | R&D Specialist,3500 Square,124652.12,US (US),2026-05-04
+Tier 3 EM Reporting Support Srv,3500 Square,94413.43,US (US),2026-05-04
+Power Business Intelligence (BI) Analyst with Security Clearance,Computer World Services Corp,91801.1,"Ashburn, Loudoun County (US)",2026-05-04
+"NISSC 3 Information Systems Security Officer, Senior with Security Clearance",American Systems Corporation,165539.62,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+NISSC Information Systems Security Analyst III with Security Clearance,American Systems Corporation,197830.08,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+NISSC 3 Database Architect III with Security Clearance,American Systems Corporation,239981.27,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+"NISSC 3 Configuration Analyst, Lead with Security Clearance",American Systems Corporation,153068.03,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+Digital Commerce Systems Specialist,TricorBraun,99312.45,"Saint Louis, Saint Louis County (US)",2026-05-04
+Customer Experience Engineer II,Microsoft Corporation,92615.84,"Redmond, King County (US)",2026-05-04
+IT Management Tool Analyst with Security Clearance,Waypoint Human Capital,94809.71,"Chantilly, Fairfax County (US)",2026-05-04
+Endpoint Engineer | Systems Administrator,3500 Square,106440.68,US (US),2026-05-04
+IA Security Administrator | Vulnerability Assessor,3500 Square,98597.79,US (US),2026-05-04
+IA Security Administrator | IT Program Audito,3500 Square,84052.84,US (US),2026-05-04
+AI Solution Architect,"TekLeaders, Inc",117966.38,"Lauderdale, Ramsey County (US)",2026-05-04
+Senior Configuration/Change Enablement Specia,3500 Square,153090.08,US (US),2026-05-04
+IA Security Administrator | Security Control Assessor,3500 Square,99711.71,US (US),2026-05-04
+Tier 3 Level EM OSD Support SRV,3500 Square,91382.01,US (US),2026-05-04
+Configuration/Change Enablement Specialist,3500 Square,119245.32,US (US),2026-05-04
+"Director, AI Business Strategy & Implementation",AbbVie,131201.0,"North Chicago, Lake County (US)",2026-05-04
+"Sr. Analyst, Voice of Guest Insights",Panera,104942.0,US (US),2026-05-04
+Power BI Intern,Bell Lumber & Pole Company,41600.0,"New Brighton, Ramsey County (US)",2026-05-04
+BI & Analytics Manager,Altitude Technology Solutions Inc,116864.43,"Tyler, Smith County (US)",2026-05-04
+NISSC 3 Information Systems Security Engineer III with Security Clearance,American Systems Corporation,213911.23,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+NISSC 3 Chief Engineer - Computer Systems Engineer/Architect SME with Security Clearance,American Systems Corporation,256461.75,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+NISSC 3 Information Systems Security Analyst (Security & Regulat with Security Clearance,American Systems Corporation,206321.75,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+Tier 3 Level EM Packaging Support SRV,3500 Square,80279.7,US (US),2026-05-04
+Tier 3 Level EM Administration Support Services,3500 Square,108083.06,US (US),2026-05-04
+IT Knowledge Management Support,3500 Square,114742.2,US (US),2026-05-04
+Corporate Recruiter (Hybrid),Rewards Network,80000.0,"Chicago, Cook County (US)",2026-05-04
+Strategic Sales Development Representative,Domino Data Lab,82148.68,"New York City, New York (US)",2026-05-04
+AI Engineer,Rishabh Software Pvt. Ltd,124112.75,"Northpoint, Pulaski County (US)",2026-05-04
+Senior Identity Engineer | R&D Specialist,3500 Square,155129.4,US (US),2026-05-04
+Senior IT Architectural Engineering Services,3500 Square,120148.25,US (US),2026-05-04
+Program Manager,Metas Solutions,157321.44,"Washington, D.C., US (US)",2026-05-04
+Tier 3 Enterprise Management (EM) Development,3500 Square,111858.77,US (US),2026-05-04
+Senior Identity Engineer | Systems Developer,3500 Square,161479.75,US (US),2026-05-04
+Principal Wireless Standards Engineer,EchoStar,133231.16,"Herndon, Fairfax County (US)",2026-05-04
+IT Manager - AI,Randstad Digital,101458.95,"Sterling Heights, Macomb County (US)",2026-05-04
+AI Architect,"TekLeaders, Inc",103621.99,"Lauderdale, Ramsey County (US)",2026-05-04
+RPA Lead Developer UiPath,Cognizant,125000.0,"Oakwood, Montgomery County (US)",2026-05-04
+"Vice President, Marketing",Vaxcyte,287120.28,"San Carlos, San Mateo County (US)",2026-05-04
+"Senior Director, AI & Digital Procurement Transformation",Hexion Careers,105140.13,US (US),2026-05-04
+Principal Wireless Standards Engineer,EchoStar,139500.47,"Plano, Collin County (US)",2026-05-04
+Tier 3 Systems Administration Support Service,3500 Square,98394.89,US (US),2026-05-04
+Systems Analyst I,Scientific Research Corporation,82762.91,"Beachville, St. Mary's County (US)",2026-05-04
+AI Development Manager,Openkyber,109923.1,"Georgia, US (US)",2026-05-04
+AI Development Manager,Openkyber,104766.39,"Alaska, US (US)",2026-05-04
+"Associate Director, Center for Aging Well (CAW)",Yale University,105000.0,US (US),2026-05-04
+Business Intelligence Analyst,Chubb Insurance in Australia,62200.0,"Chicago, Cook County (US)",2026-05-04
+Principal Advanced Cloud Engineer Manager (ACE)- CTJ-Poly,Microsoft Corporation,210067.7,"Reston, Fairfax County (US)",2026-05-04
+Cybersecurity AI Architect,onsemi,176289.97,"Scottsdale, Maricopa County (US)",2026-05-04
+Product Manager,NorthPoint Development,106128.09,"Kansas City, Jackson County (US)",2026-05-04
+Lead Infrastructure Engineer - TS/SCI/Poly,General Dynamics Information Technology,156208.84,"Wolf Trap, Halifax County (US)",2026-05-04
+Data Analyst,Security Industry Specialists,90000.0,"Monte Vista, Santa Clara County (US)",2026-05-04
+Lead Infrastructure Engineer - TS/SCI/Poly,GD Information Technology,191250.0,"Tysons Corner, Fairfax County (US)",2026-05-04
+Inventory Manager,Harman Becker Automotive Systems Manufacturing Kft,86289.75,"Richardson, Dallas (US)",2026-05-04
+IT Intern - Cybersecurity,Generac Power Systems,65744.59,"Waukesha, Waukesha County (US)",2026-05-04
+Senior Customer Engineer - CTJ - TS/SCI,Microsoft,148400.0,"Reston, Fairfax County (US)",2026-05-04
+Senior Customer Engineer - CTJ - TS/SCI,Microsoft Corporation,164771.31,"Reston, Fairfax County (US)",2026-05-04
+Software Engineer (Entry-Senior) - Navy Training & Simulation Systems - 28027,Huntington Ingalls Industries,120053.76,"Virginia Beach, Virginia Beach City (US)",2026-05-04
+Practice Leader AI/ML,"INTUITIVE TECHNOLOGY PARTNERS, INC.",203842.4,US (US),2026-05-04
+Senior Analyst - Business Systems,Wesco,72659.38,"Glenview, Cook County (US)",2026-05-04
+Cloud Engineer,Lee Health,132554.77,"Fort Myers, Lee County (US)",2026-05-04
+Cloud Engineer,Lee Health,160910.66,"Gateway, Lee County (US)",2026-05-04
+NISSC 3 Facility Security Officer with Security Clearance,American Systems Corporation,123783.43,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+Software Engineer,Booz Allen Hamilton,69400.0,"Virginia, US (US)",2026-05-04
+"Director, Digital Innovation & 3PD (LAC)",Subway,163000.0,"Miami, Miami-Dade County (US)",2026-05-04
+"Senior Data Analyst, FP&A",MQ Referrals Only,117600.0,US (US),2026-05-04
+"VP, Head of Specialty & Excess Casualty & Structured Pricing",BP&C,171000.0,"New York City, New York (US)",2026-05-04
+Senior Customer Success Manager,Anaconda,95000.0,US (US),2026-05-04
+"Sr Director, Head of Data Science & Digital Health -Therapeutics Discovery",6084-Janssen Research & Development Legal Entity,196000.0,"Spring House, Montgomery County (US)",2026-05-04
+"Sr Director, Head of Data Science & Digital Health -Therapeutics Discovery",J&J Family of Companies,152251.0,"Lower Gwynedd, Montgomery County (US)",2026-05-04
+Application Consultant 2026 - Azure Cloud,IBM,93852.36,"SoMa, San Francisco (US)",2026-05-04
+Software Engineer Virtual Internship,Robert Half,83170.31,"San Ramon, Contra Costa County (US)",2026-05-04
+Application Consultant 2026 - Azure Cloud,IBM,107344.69,"Atlanta, Fulton County (US)",2026-05-04
+Data Scientist - W2,Aroha Technologies,145445.69,"Mount Rainier, Prince George's County (US)",2026-05-04
+"Join the AES Digital, Cyber, & IT Talent Community!",AES US,99180.61,"Arlington, Arlington County (US)",2026-05-04
+"Business Intelligence Intern, Information Technology",ServiceLink,41600.0,"Prestonwood, Collin County (US)",2026-05-04
+AI Architect (Data Scientist  AI/ML Engineering),"Reston, VA",156675.52,"Reston, Fairfax County (US)",2026-05-04
+"Senior Manager, Enterprise Sales",Posit,292000.0,US (US),2026-05-04
+Director of AI,Vectra,252000.0,"San Jose, Santa Clara County (US)",2026-05-04
+Power Business Intelligence (BI) Analyst,Computer World Services,76591.3,"Ashburn, Loudoun County (US)",2026-05-04
+IT Intern - Cybersecurity,Generac,47130.31,"Waukesha, Waukesha County (US)",2026-05-04
+Business Intelligence Engineer - BI & Data Strategy,Alliant Insurance Services,78031.05,US (US),2026-05-04
+NISSC 3 Database Architect III,AMERICAN SYSTEMS,255194.53,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+NISSC Information Systems Security Analyst III,AMERICAN SYSTEMS,197392.1,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+NISSC 3 Information Systems Security Engineer III,AMERICAN SYSTEMS,227999.14,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+"NISSC 3 Information Systems Security Officer, Senior",AMERICAN SYSTEMS,170416.95,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+"NISSC 3 Configuration Analyst, Lead",AMERICAN SYSTEMS,154531.69,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+NISSC 3 Chief Engineer - Computer Systems Engineer/Architect SME,AMERICAN SYSTEMS,266479.22,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+NISSC 3 Data & Media Management Specialist II with Security Clearance,American Systems Corporation,131972.64,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+IT Management Tool Analyst,Waypoint Human Capital,96312.48,"Chantilly, Fairfax County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,186664.78,"Montpelier, Washington County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,196467.72,"Charleston, Kanawha County (US)",2026-05-04
+Director - CenterWell AI Product Management,Humana,182087.52,"Frankfort, Franklin County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,268116.53,"Atlanta, Fulton County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,262050.28,"La Cienga, Santa Fe County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,182552.97,"Bismarck, Burleigh County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,286306.0,"Cammack Village, Pulaski County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,169636.03,"Chisolm, Montgomery County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,233834.66,"Uptown, Marion County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,185911.88,"Baton Rouge, East Baton Rouge Parish (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,179707.67,"Boston, Suffolk County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,186790.86,"Saint Paul, Ramsey County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,197373.47,"Nashville, Davidson County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,200347.86,"Lansing, Ingham County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,182211.55,"Salem, Marion County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,181333.52,"Phoenix, Maricopa County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,205985.56,"Talcott Village, Hartford County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,224432.23,"Glendale, Denver (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,187584.55,"Oklahoma City, Oklahoma County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,234318.62,"Annapolis, Anne Arundel County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,255868.11,"Augusta, Kennebec County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,176248.78,"Wake Island, Honolulu (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,194428.22,"Helena, Lewis and Clark County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,184971.03,"Des Moines, Polk County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,189616.44,"Edgewood, Richland County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,235625.5,"Grandview Heights, Franklin County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,213896.75,"Ny State Campus, Albany County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,194174.36,"Washington, D.C., US (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,220568.1,"Archer, Laramie County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,188113.03,"Boise, Ada County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,196037.25,"Providence, Providence County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,174669.53,"Jackson, Hinds County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,206590.12,"Frankfort, Franklin County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,194313.66,"Topeka, Shawnee County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,281754.62,"Concord, Merrimack County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,236046.08,"State House, Lancaster County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,200899.45,"Trenton, Mercer County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,202929.22,"Cedar, Cole County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,200668.9,"Carson Mall, Carson City (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,213074.83,"Five Points, Wake County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,240322.3,"Wyoming, Kent County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,184986.2,"Urbanización El Vedado, San Juan (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,287164.38,"Pierre, Hughes County (US)",2026-05-04
+Head of Event Technology,Atlassian,199264.77,"Mountain View, Santa Clara County (US)",2026-05-04
+Sr. Principle Global Industrial Analytics Engineer,Alcon Research,180998.34,"Fort Worth, Tarrant County (US)",2026-05-04
+BI Analytics Engineer,Eaton Corporation,129994.77,"Coraopolis, Allegheny County (US)",2026-05-04
+Senior Consultant- DER/DSM Planning and Design (REMOTE),ICF,166069.02,"Reston, Fairfax County (US)",2026-05-04
+Senior Consultant- DER/DSM Planning and Design (REMOTE),ICF,89649.0,"Reston, Fairfax County (US)",2026-05-04
+"Senior Automation Specialist, Underwriter",AAA Life Insurance Company,78285.14,"Livonia, Wayne County (US)",2026-05-04
+Threat Hunter,Tenex.Ai,147986.56,"Overland Park, Johnson County (US)",2026-05-04
+IT Intern - Web Development,Generac Power Systems,95326.5,"Waukesha, Waukesha County (US)",2026-05-04
+Data Warehouse Architect,Moda Health,110750.0,"Portland, Multnomah County (US)",2026-05-04
+Data Engineer with Security Clearance,BAE Systems,112979.12,"Reston, Fairfax County (US)",2026-05-04
+Data Scientist with Security Clearance,BAE Systems,117786.62,"Reston, Fairfax County (US)",2026-05-04
+"Technical Product Manager, Digital Solutions (Computer Vision / AI)",Patterson-UTI,152734.98,"North Houston, Harris County (US)",2026-05-04
+NISSC 3 Information Systems Security Analyst (Security & Regulation Compliance),AMERICAN SYSTEMS,192974.78,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,170830.9,"Washington, D.C., US (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,165940.16,"Portland, Multnomah County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,187459.0,"Five Points, Wake County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,164426.14,"Charlotte, Mecklenburg County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,214533.11,"Stamford, Fairfield County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,181221.67,"Talcott Village, Hartford County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,204798.55,"One Horse Store, Arkansas County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,197451.22,"Glendale, Denver (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,178970.53,"Hoboken, Hudson County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,251030.7,"Kansas City, Jackson County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,173158.25,"Wellston, Saint Louis County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,180848.06,"Druid, Baltimore (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,202094.12,"Pico Heights, Los Angeles County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,178472.5,"Sacramento, Sacramento County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,261337.0,"Palo Alto, Santa Clara County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,175962.27,"Lake Sherwood, Ventura County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,197836.11,"San Diego, San Diego County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,206234.81,"SoMa, San Francisco (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,214785.53,"Huntington, Orange County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,189090.4,"Campbell, Santa Clara County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,166146.95,"Strathmoor Manor, Jefferson County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,206178.77,"Secaucus, Hudson County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,206612.39,"West Milwaukee, Milwaukee County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,212146.39,"Cheektowaga, Erie County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,237143.11,"Grand Central, Manhattan (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,175081.62,"Rochester, Monroe County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,169176.56,"Conestee, Greenville County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,172469.52,"Providence, Providence County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,206959.86,"Paradise, Clark County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,235883.61,"Atlanta, Fulton County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,235259.5,"North Hill, Summit County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,181905.44,"Grandview, Franklin County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,201010.61,"Saint Bernard, Hamilton County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,219715.94,"Newburgh Heights, Cuyahoga County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,183266.25,"Minneapolis, Hennepin County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,167294.75,"Toledo, Lucas County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,173645.25,"Nashville, Davidson County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,247989.25,"Ridgeside, Hamilton County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,190533.48,"Cloverdale, Shelby County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,162733.84,"Des Moines, Polk County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,172544.2,"Bonnie, Utah County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,163322.47,"Birmingham, Jefferson County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,187681.53,"Wichita, Sedgwick County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,158103.39,"Boston, Suffolk County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,181822.55,"International, King County (US)",2026-05-04
+AI Finance - Manager - Tech Consulting - Location Open,EY,155060.19,"Wake Island, Honolulu (US)",2026-05-04
+Chief Data Scientist,Mondelez International,115972.68,"East Hanover, Morris County (US)",2026-05-04
+Network IoT Engineer,Openkyber,112873.04,"Alaska, US (US)",2026-05-04
+Sr. Data Scientist,TAG - The Aspen Group,182692.31,"Chicago, Cook County (US)",2026-05-04
+AI Intern,Fortinet,83200.0,"Sunnyvale, Santa Clara County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,52132.94,"Jackson, Hinds County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,71728.2,"Wyoming, Kent County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,58535.93,"Bonnie, Utah County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,59892.99,"Carson Mall, Carson City (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,58909.35,"Nashville, Davidson County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,57954.63,"Washington, D.C., US (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,56594.14,"Edgewood, Richland County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,57761.79,"Tumwater, Thurston County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,53636.7,"Boston, Suffolk County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,60567.56,"Cedar, Cole County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,54121.96,"Phoenix, Maricopa County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,58639.02,"Charleston, Kanawha County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,55987.74,"Oklahoma City, Oklahoma County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,55713.12,"Montpelier, Washington County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,58030.35,"Helena, Lewis and Clark County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,63933.66,"Mongmong, Mongmong-Toto-Maite (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,85452.65,"Cammack Village, Pulaski County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,78213.2,"La Cienga, Santa Fe County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,57996.16,"Topeka, Shawnee County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,65832.17,"Archer, Laramie County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,63840.93,"Ny State Campus, Albany County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,54384.03,"Salem, Marion County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,55207.69,"Des Moines, Polk County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,70326.3,"Grandview Heights, Franklin County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,54485.88,"Bismarck, Burleigh County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,58027.19,"Madison, Dane County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,85708.92,"Pierre, Hughes County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,55212.22,"Urbanización El Vedado, San Juan (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,50630.66,"Chisolm, Montgomery County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,69936.24,"Annapolis, Anne Arundel County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,70451.89,"State House, Lancaster County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,56145.31,"Boise, Ada County (US)",2026-05-04
+Process Control Engineer (Fault Detection),"Micron Technology, Inc.",124159.4,"Boise, Ada County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,59797.05,"Lansing, Ingham County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,84094.22,"Concord, Merrimack County (US)",2026-05-04
+Technical Project Manager (TPM),Cadmus,52604.34,"Wake Island, Honolulu (US)",2026-05-04
+Database Administrator,BAE Systems,155587.67,"Washington, D.C., US (US)",2026-05-04
+Industrial AI Forward Deployed Strategist,Sight Machine's Services Team,150000.0,"Ann Arbor, Washtenaw County (US)",2026-05-04
+SOX Program Lead,Moloco,168000.0,"Menlo Park, San Mateo County (US)",2026-05-04
+Instructor - Data Visualization with Tableau,Fullstack Academy,84435.51,US (US),2026-05-04
+"Senior, Data Scientist",Walmart,220415.02,"Sunnyvale, Santa Clara County (US)",2026-05-04
+Data Scientist - ML & Operational Analytics,TECHNEPTUNE CONSULTING INC,126429.77,"Mount Rainier, Prince George's County (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,100476.89,"Trammells, Harris County (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,104031.32,"Campbell, Santa Clara County (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,105193.79,"Schiller Park, Cook County (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,119435.38,"Elkins Park, Montgomery County (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,96847.44,"Highland Park, Dallas (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,113568.62,"Grand Central, Manhattan (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,78320.91,US (US),2026-05-04
+Senior ETL/BI Application Engineer,Conduent,99208.14,"Northlake, DeKalb County (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,105817.72,"Hayes Valley, San Francisco (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,111568.24,"South Boston, Suffolk County (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,112846.02,"San Diego, San Diego County (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,94528.57,"Washington, Washington, D.C. (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,104659.14,"Textile Finance, Los Angeles County (US)",2026-05-04
+Senior ETL/BI Application Engineer,Conduent,91014.8,"Bee Cave, Travis County (US)",2026-05-04
+IT Intern,Maryland Wellness,25296.03,"Salisbury, Wicomico County (US)",2026-05-04
+IT Intern,Maryland Wellness,28217.24,"Arlington, Baltimore (US)",2026-05-04
+IT Intern,Maryland Wellness,23534.38,"Ridgeley, Mineral County (US)",2026-05-04
+CAD and Design Applications Administrator,Rettew,54094.67,"Williams Grv, Cumberland County (US)",2026-05-04
+"Chair, Department of Cancer Biology",University of Pennsylvania,106995.15,"William Penn Annex East, Philadelphia County (US)",2026-05-04
+IT Intern,Maryland Wellness,23049.22,"Kettering, Prince George's County (US)",2026-05-04
+IT Intern,Maryland Wellness,27123.5,"Havre De Grace, Harford County (US)",2026-05-04
+IT Intern,Maryland Wellness,27048.46,"Loch Lynn Heights, Garrett County (US)",2026-05-04
+Explore Teaching STEM,EnCorps,76831.55,"Lawndale, Los Angeles County (US)",2026-05-04
+Technical Program Manager,Lorhan Corporation,125000.0,"Middlesex, Middlesex County (US)",2026-05-04
+Finance Manager,Databricks,125532.05,"San Francisco, California (US)",2026-05-04
+Finance Manager,Databricks,121778.49,US (US),2026-05-04
+Data Analyst II,BAE Systems,97883.31,"Washington, D.C., US (US)",2026-05-04
+Senior Data Analyst,BAE Systems,110438.71,"Washington, D.C., US (US)",2026-05-04
+Software Engineer II,BAE Systems,128447.7,"Washington, D.C., US (US)",2026-05-04
+Technology - Summer Intern,Fiserv,59291.32,"Alpharetta, Fulton County (US)",2026-05-04
+"Program Director, Master of Science in Applied Computing",Benedict College,76610.58,"Edgewood, Richland County (US)",2026-05-04
+Deal Desk Analyst - US Commercial Operations,Zoetis,91797.78,"Parsippany Troy Hills, Morris County (US)",2026-05-04
+Software Engineer Mid-Level Secret Clearance/CompTIASec with Security Clearance,Milvets Systems Technology,165968.33,"Alameda, Bernalillo County (US)",2026-05-04
+Data Center Support Engineer,Nebius,90000.0,"New Jersey, US (US)",2026-05-04
+"Sr. Data Analyst, Internal Audit",The Vanguard Group,91625.12,"Malvern, Chester County (US)",2026-05-04
+Senior IT Systems Administrator,Cabaletta Bio,152925.33,"Philadelphia, Philadelphia County (US)",2026-05-04
+"Computer Scientist III, Step 4",The University of Alabama in Huntsville,107762.98,"Alabama, US (US)",2026-05-04
+Senior Data Analyst with Security Clearance,BAE Systems,134556.84,"Washington, D.C., US (US)",2026-05-04
+Database Administrator with Security Clearance,BAE Systems,173249.27,"Washington, D.C., US (US)",2026-05-04
+Data Analyst II with Security Clearance,BAE Systems,124059.38,"Washington, D.C., US (US)",2026-05-04
+Chief Data Scientist,Mondelēz International,134926.4,US (US),2026-05-04
+Senior Analyst - Business Systems,WESCO,57235.98,"Glenview, Cook County (US)",2026-05-04
+Data Science Manager,Fixify,116188.55,US (US),2026-05-04
+Graduate Assistant Non-Teaching | Institutional Research and Data Analysis,Prairie View A&M University,54887.04,"Prairie View, Waller County (US)",2026-05-04
+Business Analytics Faculty - Full Time,Berkeley College,80000.0,"Great Notch, Passaic County (US)",2026-05-04
+Digital Transformation Strategist I,Hl Mando America Corp,122931.23,"Opelika, Lee County (US)",2026-05-04
+"Senior Manager, Advertising Strategy & Intelligence, AI Technologies",Texas Instruments,127330.38,"Buckingham, Dallas (US)",2026-05-04
+Machine Learning Operations-Engineer II,GM Financial,137359.33,"Irving, Dallas (US)",2026-05-04
+Knowledge Management (KM) Lead / Project Analyst,LinTech Global Inc.,92820.71,"Fort Sam Houston, Bexar County (US)",2026-05-04
+Application Consultant 2026 - Azure Cloud,IBM,93121.1,"Highland Park, Dallas (US)",2026-05-04
+Application Consultant 2026 - Azure Cloud,IBM,85403.44,"Old Sixth Ward, Houston (US)",2026-05-04
+Application Consultant 2026 - Azure Cloud,IBM,90920.68,"Tarrytown, Travis County (US)",2026-05-04
+Application Consultant 2026 - Azure Cloud,IBM,78479.65,"Illinois Medical District, Chicago (US)",2026-05-04
+"Executive Director, Medical Affairs – Digital Innovation & HEOR (Prolaio)",Kardigan,275000.0,US (US),2026-05-04
+AI Integration Specialist,"ASM Research, An Accenture Federal Services Company",130786.88,"Washington, D.C., US (US)",2026-05-04
+"Project Manager, Applied AI Engineering",ThermoFisher Scientific,155948.8,"Carlsbad, San Diego County (US)",2026-05-04
+VP Head of Engineering,The Hartford,228314.22,"Charlotte, Mecklenburg County (US)",2026-05-04
+VP Head of Engineering,The Hartford,251636.64,"Talcott Village, Hartford County (US)",2026-05-04
+Senior IT Program Manager with Security Clearance,Koniag Government Services,170199.31,"Hampton Roads, Hampton City (US)",2026-05-04
+"Director, Data Engineering and Integration Services",Central Health,148046.55,"Sprinkle, Travis County (US)",2026-05-04
+IT Intern - Web Development,Generac,73983.51,"Waukesha, Waukesha County (US)",2026-05-04
+Data Scientist,BAE Systems,88922.22,"Reston, Fairfax County (US)",2026-05-04
+Software Engineer II with Security Clearance,BAE Systems,149789.25,"Washington, D.C., US (US)",2026-05-04
+Software Engineer Mid-Level Secret Clearance/CompTIASec,"MILVETS Systems Technology, Inc.",145298.45,"Albuquerque, Bernalillo County (US)",2026-05-04
+Senior Data Scientist,BP&C,90800.0,"Chicago, Cook County (US)",2026-05-04
+Director Analytics & Informatics,TDC Brand,160298.0,"Greeley Square, Manhattan (US)",2026-05-04
+Senior IT Governance Analyst,Blue Shield of North Carolina,107901.0,US (US),2026-05-04
+Finance Manager,Databricks,138265.53,"San Francisco, California (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,126300.0,US (US),2026-05-04
+Director - CenterWell AI Product Management,CenterWell,168000.0,US (US),2026-05-04
+Demand Planning Manager,Microsoft Corporation,164368.9,"Redmond, King County (US)",2026-05-04
+Knowledge Management (KM) Lead / Project Analyst,LinTech Global,40000.0,"San Antonio, Bexar County (US)",2026-05-04
+Data Engineer,BAE Systems,81294.28,"Reston, Fairfax County (US)",2026-05-04
+Intern - Year Round (Data Engineering),Navy Federal,80939.28,"Vienna, Fairfax County (US)",2026-05-04
+Lead Data Scientist - AI Implementation,GM Financial,136126.72,"Fort Worth, Tarrant County (US)",2026-05-04
+Business Analytics Manager (Lifecycle Marketing),Whoop,150000.0,"Boston, Suffolk County (US)",2026-05-04
+"Senior Director, Emerging Technology and Engineering",Alkermes,271057.44,"South Waltham, Middlesex County (US)",2026-05-04
+Industrial/Principal Industrial Engineer Level 2/3 with Security Clearance,Northrop Grumman,116776.75,"North Crossroads, Tishomingo County (US)",2026-05-04
+Engineer Industrial / Principal Engineer Industrial with Security Clearance,Northrop Grumman,159284.0,"City Ranch, Los Angeles County (US)",2026-05-04
+Deal Desk Analyst – US Commercial Operations,Zoetis,80000.0,"Parsippany, Morris County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,189531.47,"Tallahassee, Leon County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,189239.61,"Capitol, Richmond (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,191616.62,"Springfield, Sangamon County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,185435.55,"Penbrook, Dauphin County (US)",2026-05-04
+Lead Product Manager - AI Product Management,CenterWell,219334.9,"Douglas, Juneau (US)",2026-05-04
+Associate Director - R&D Advanced Data & Digital Platforms,Tiger Analytics Inc.,159276.88,"Groton, New London County (US)",2026-05-04
+Project Coordinator,Expedient,59105.63,"Cleveland, Cuyahoga County (US)",2026-05-04
+Clinical Data Quality Specialist,Arkana Laboratories,77295.14,"Arkansas, US (US)",2026-05-04
+Lead Data Science Product Mgr,HCSC,112200.0,"Chicago, Cook County (US)",2026-05-04
+NISSC 3 Facility Security Officer,AMERICAN SYSTEMS,122420.91,"Peterson Air Force Base, El Paso County (US)",2026-05-04
+"Director, AI Business Strategy & Implementation",AbbVie,165264.38,"Downey, Lake County (US)",2026-05-04
+Cybersecurity Content Creator,Educate 360,93560.66,US (US),2026-05-04
+Data Science PM (f/m/d),Siemens Energy,133363.88,"Edgewood, Orange County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,222974.7,"Grand Central, Manhattan (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,156026.16,"Portland, Multnomah County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,194268.45,"West Milwaukee, Milwaukee County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,179150.17,"Cloverdale, Shelby County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,155610.38,"Boise, Ada County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,177323.25,"Detroit, Wayne County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,201716.14,"Stamford, Fairfield County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,156220.61,"Strathmoor Manor, Jefferson County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,200245.28,"Grand Rapids, Kent County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,154602.44,"Charlotte, Mecklenburg County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,194913.7,"Grandview Heights, Franklin County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,189001.34,"Saint Bernard, Hamilton County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,206589.33,"Newburgh Heights, Cuyahoga County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,158149.53,"Custom House, Orleans Parish (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,163270.92,"Nashville, Davidson County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,221790.88,"Atlanta, Fulton County (US)",2026-05-04
+Principal AI Demand Planner,Microsoft Corporation,167489.67,"Redmond, King County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,162813.16,"Wellston, Saint Louis County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,236033.25,"Kansas City, Jackson County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,193432.47,"Uptown, Marion County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,170043.39,"Druid, Baltimore (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,151445.69,"Williams, Tulsa County (US)",2026-05-04
+Kinaxis Solution Architect Manager,Deloitte,170959.98,"International, King County (US)",2026-05-04
+Strategic Sales Executive – AI Product Line,Pure Storage,205000.0,"Santa Clara, Santa Clara County (US)",2026-05-04
+Senior Cybersecurity Analyst,Tenex.Ai,148317.03,"Overland Park, Johnson County (US)",2026-05-04
+Cybersecurity Analyst,Tenex.Ai,134521.94,"Overland Park, Johnson County (US)",2026-05-04
