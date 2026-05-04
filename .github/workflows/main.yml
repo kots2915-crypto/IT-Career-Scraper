@@ -2,53 +2,31 @@ name: Daily Data Scraper
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Chạy tự động vào 00:00 mỗi ngày (giờ UTC)
-  workflow_dispatch:      # Cho phép bạn bấm nút chạy thủ công bất cứ lúc nào
+    - cron: '0 0 * * *'
+  workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
 
 permissions:
-  contents: write         # Cấp quyền ghi để có thể Push dữ liệu lên Github
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.9'
-
-      - name: Install dependencies
-        run: |
-          pip install pandas requests
-          # Chỉ giữ Selenium/Chrome nếu file scraper.py thực sự dùng đến nó
-          # pip install selenium 
-          # sudo apt-get update
-          # sudo apt-get install -y google-chrome-stable
-
-      - name: Run Scraper
+      - name: Install
+        run: pip install pandas requests
+      - name: Run
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: python scraper.py
-
-      - name: Commit and Push
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          
-          git add data/*.csv
-          
-          if git diff --staged --quiet; then
-            echo "Không có dữ liệu mới để cập nhật."
-          else
-            git commit -m "Auto update: New jobs found"
-            # Cập nhật thay đổi từ GitHub về máy ảo trước khi đẩy lên
-            git pull --rebase origin main
-            git push origin main
-          fi
+      - name: Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-sync: New jobs found"
+          file_pattern: 'data/*.csv'
