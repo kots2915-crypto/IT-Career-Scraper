@@ -223,8 +223,12 @@ def main():
     df_new['day_key'] = df_new['id'] + '_' + today_str  # Key duy nhất theo ngày
 
     if os.path.exists(HISTORY_FILE):
-        df_hist = pd.read_csv(HISTORY_FILE, dtype={'id': str, 'day_key': str})
-        # Chỉ lọc bỏ những job đã xuất hiện CÙNG NGÀY HÔM NAY (tránh duplicate trong 1 lần chạy)
+        df_hist = pd.read_csv(HISTORY_FILE, dtype={'id': str})
+        # Tương thích ngược: file history cũ chưa có cột day_key → tự tạo
+        if 'day_key' not in df_hist.columns:
+            df_hist['day_key'] = df_hist['id'].astype(str) + '_' + df_hist['raw_date'].astype(str)
+        df_hist['day_key'] = df_hist['day_key'].astype(str)
+        # Chỉ lọc bỏ những job đã xuất hiện CÙNG NGÀY HÔM NAY
         seen_today = set(df_hist[df_hist['raw_date'] == today_str]['day_key'].tolist())
         df_unique = df_new[~df_new['day_key'].isin(seen_today)].copy()
         log.info(f"🔍 Đã thấy hôm nay: {len(seen_today)} | Mới thêm: {len(df_unique)}")
