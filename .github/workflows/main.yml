@@ -15,7 +15,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30    # Tránh job treo vô tận, tốn quota
+    timeout-minutes: 30
 
     steps:
       - name: Checkout Repository
@@ -28,12 +28,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      # Cache pip để không install lại mỗi lần → nhanh hơn ~30s
       - name: Cache pip dependencies
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          key: ${{ runner.os }}-pip-pandas-requests
           restore-keys: |
             ${{ runner.os }}-pip-
 
@@ -42,17 +41,16 @@ jobs:
           pip install --upgrade pip
           pip install pandas==2.2.2 requests==2.32.3
 
-      # Bước kiểm tra API key trước khi chạy — fail sớm nếu thiếu secret
       - name: Validate API Keys
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: |
           if [ -z "$ADZUNA_APP_ID" ] || [ -z "$ADZUNA_APP_KEY" ]; then
-            echo "❌ Thiếu ADZUNA_APP_ID hoặc ADZUNA_APP_KEY trong GitHub Secrets!"
+            echo "Thieu ADZUNA_APP_ID hoac ADZUNA_APP_KEY trong GitHub Secrets!"
             exit 1
           fi
-          echo "✅ API keys OK"
+          echo "API keys OK"
 
       - name: Run Scraper
         env:
@@ -60,22 +58,26 @@ jobs:
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: python scraper.py
 
-      # Kiểm tra có file mới không trước khi commit
       - name: Check for new data
         id: check_changes
         run: |
           if git diff --quiet data/; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "ℹ️  Không có job mới hôm nay, bỏ qua commit."
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "✅ Có dữ liệu mới, chuẩn bị commit."
           fi
+
+      # FIX non-fast-forward: pull --rebase trước khi push
+      - name: Pull latest before push
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
 
       - name: Commit and Push New Data
         if: steps.check_changes.outputs.has_changes == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 Auto-sync: New jobs ${{ github.run_id }}"
+          commit_message: "Auto-sync: New jobs ${{ github.run_id }}"
           file_pattern: 'data/*.csv'
-          # Bỏ --force để không overwrite lịch sử commit
