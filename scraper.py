@@ -206,7 +206,7 @@ def main():
     os.makedirs('data', exist_ok=True)
 
     # 1. Thu thập dữ liệu
-    all_raw = fetch_adzuna('gb') + fetch_adzuna('us')
+    all_raw = fetch_adzuna('gb') + fetch_adzuna('us') + fetch_adzuna('sg') + fetch_adzuna('in')
     df_new = pd.DataFrame(all_raw)
 
     if df_new.empty:
