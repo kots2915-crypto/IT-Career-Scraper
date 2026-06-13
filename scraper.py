@@ -1,6 +1,5 @@
 """
-STARS IT Career Scraper - V2
-Cải thiện từ V1: salary đầy đủ, skills chi tiết, retry logic, logging
+STARS IT Career Scraper
 """
 
 import requests
@@ -10,7 +9,7 @@ import time
 import logging
 from datetime import datetime, timedelta
 
-# ── Logging ────────────────────────────────────────────────────────────────────
+# Logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
@@ -18,17 +17,17 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# ── Cấu hình ───────────────────────────────────────────────────────────────────
+# Cấu hình 
 APP_ID       = os.getenv('ADZUNA_APP_ID')
 APP_KEY      = os.getenv('ADZUNA_APP_KEY')
 HISTORY_FILE = "data/full_history.csv"
 DAILY_FILE   = "data/daily_job.csv"
-MAX_JOBS     = 500          # Giới hạn mỗi quốc gia
+MAX_JOBS     = 500         
 RESULTS_PER_PAGE = 50
-RETRY_LIMIT  = 3            # Số lần retry khi API lỗi
-RETRY_DELAY  = 2            # Giây chờ giữa các retry
+RETRY_LIMIT  = 3            
+RETRY_DELAY  = 2            
 
-# ── Bảng skills chi tiết (đồng bộ với Colab V11) ──────────────────────────────
+# Bảng skills
 SKILL_MAP = {
     'data scientist':    'Python, SQL, Machine Learning, Statistics, Pandas',
     'data analyst':      'SQL, Python, Power BI, Excel, Tableau',
@@ -72,10 +71,6 @@ SKILL_MAP = {
 }
 
 def guess_info(title: str):
-    """
-    Suy luận experience và skills từ job title.
-    Đồng bộ logic với Colab V11 để data nhất quán.
-    """
     t = str(title).lower()
 
     # Experience
@@ -90,7 +85,7 @@ def guess_info(title: str):
     else:
         exp = "1-3 years"
 
-    # Skills — match từ cụ thể → tổng quát
+    # Skills 
     for keyword, skills in SKILL_MAP.items():
         if keyword in t:
             return exp, skills
@@ -109,12 +104,9 @@ def guess_info(title: str):
 
 
 def fetch_adzuna(country: str, max_jobs: int = MAX_JOBS) -> list:
-    """
-    Gọi Adzuna API với retry logic và dừng sớm khi đủ job.
-    """
     jobs = []
     page = 1
-    log.info(f"📡 Bắt đầu khai thác Adzuna {country.upper()}...")
+    log.info(f" Bắt đầu khai thác Adzuna {country.upper()}...")
 
     while len(jobs) < max_jobs:
         url = (
@@ -122,7 +114,7 @@ def fetch_adzuna(country: str, max_jobs: int = MAX_JOBS) -> list:
             f"?app_id={APP_ID}&app_key={APP_KEY}"
             f"&results_per_page={RESULTS_PER_PAGE}"
             f"&what=it+developer+data+software"
-            f"&sort_by=date"          # Lấy job mới nhất
+            f"&sort_by=date"        
         )
 
         # Retry logic
@@ -146,9 +138,9 @@ def fetch_adzuna(country: str, max_jobs: int = MAX_JOBS) -> list:
                 time.sleep(RETRY_DELAY)
 
         if response is None or response.status_code != 200:
-            log.error(f"  ❌ Bỏ qua trang {page} sau {RETRY_LIMIT} lần thử")
+            log.error(f"   Bỏ qua trang {page} sau {RETRY_LIMIT} lần thử")
             page += 1
-            if page > 20:   # Tránh vòng lặp vô tận
+            if page > 20: 
                 break
             continue
 
@@ -182,7 +174,7 @@ def fetch_adzuna(country: str, max_jobs: int = MAX_JOBS) -> list:
                 "job_title":   title,
                 "company":     item.get('company', {}).get('display_name', 'N/A'),
                 "salary":      salary_str,
-                "salary_raw":  salary_val,      # Giá trị số để Colab xử lý
+                "salary_raw":  salary_val,      
                 "location":    f"{item.get('location', {}).get('display_name', 'N/A')} ({country.upper()})",
                 "experience":  exp,
                 "skills":      skills,
@@ -191,16 +183,16 @@ def fetch_adzuna(country: str, max_jobs: int = MAX_JOBS) -> list:
 
         log.info(f"  Trang {page}: +{len(results)} jobs | Tổng: {len(jobs)}")
         page += 1
-        time.sleep(0.5)     # Tránh spam API
+        time.sleep(0.5)     
 
-    log.info(f"✅ {country.upper()}: Thu được {len(jobs)} jobs")
+    log.info(f" {country.upper()}: Thu được {len(jobs)} jobs")
     return jobs
 
 
 def main():
     # Kiểm tra API key
     if not APP_ID or not APP_KEY:
-        log.error("❌ Thiếu ADZUNA_APP_ID hoặc ADZUNA_APP_KEY trong environment!")
+        log.error(" Thiếu ADZUNA_APP_ID hoặc ADZUNA_APP_KEY trong environment!")
         raise SystemExit(1)
 
     os.makedirs('data', exist_ok=True)
@@ -210,15 +202,12 @@ def main():
     df_new = pd.DataFrame(all_raw)
 
     if df_new.empty:
-        log.warning("⚠️  Không lấy được job nào từ API. Thoát.")
+        log.warning(" Không lấy được job nào từ API. Thoát.")
         raise SystemExit(0)   # Exit 0 để workflow không báo fail
 
-    log.info(f"📦 Tổng thu thập: {len(df_new)} jobs (trước lọc trùng)")
+    log.info(f"Tổng thu thập: {len(df_new)} jobs (trước lọc trùng)")
 
-    # 2. Lọc trùng — dùng (id + ngày) thay vì chỉ id
-    # Lý do: Adzuna trả về cùng job ID mỗi ngày (job vẫn active)
-    # → Nếu lọc theo ID đơn thuần thì daily luôn trống sau ngày đầu tiên
-    # → Giải pháp: cùng ID nhưng khác ngày = vẫn là "mới" → cho vào daily
+    # 2. Lọc trùng 
     today_str = datetime.now().strftime("%Y-%m-%d")
     df_new['day_key'] = df_new['id'] + '_' + today_str  # Key duy nhất theo ngày
 
@@ -228,32 +217,31 @@ def main():
         if 'day_key' not in df_hist.columns:
             df_hist['day_key'] = df_hist['id'].astype(str) + '_' + df_hist['raw_date'].astype(str)
         df_hist['day_key'] = df_hist['day_key'].astype(str)
-        # Chỉ lọc bỏ những job đã xuất hiện CÙNG NGÀY HÔM NAY
         seen_today = set(df_hist[df_hist['raw_date'] == today_str]['day_key'].tolist())
         df_unique = df_new[~df_new['day_key'].isin(seen_today)].copy()
-        log.info(f"🔍 Đã thấy hôm nay: {len(seen_today)} | Mới thêm: {len(df_unique)}")
+        log.info(f" Đã thấy hôm nay: {len(seen_today)} | Mới thêm: {len(df_unique)}")
     else:
         df_unique = df_new.copy()
         df_hist = pd.DataFrame(columns=['id', 'day_key', 'raw_date'])
-        log.info("📝 Không có lịch sử, lưu toàn bộ.")
+        log.info(" Không có lịch sử, lưu toàn bộ.")
 
-    # 3. Cập nhật lịch sử (chỉ giữ 30 ngày để tránh file phình to)
+    # 3. Cập nhật lịch sử 
     new_history = df_unique[['id', 'day_key', 'raw_date']].copy()
     df_hist_updated = pd.concat([df_hist, new_history], ignore_index=True)
     df_hist_updated['raw_date'] = pd.to_datetime(df_hist_updated['raw_date'], errors='coerce')
     cutoff = datetime.now() - timedelta(days=30)
     df_hist_updated = df_hist_updated[df_hist_updated['raw_date'] >= cutoff]
     df_hist_updated.to_csv(HISTORY_FILE, index=False)
-    log.info(f"💾 Lịch sử: {len(df_hist_updated)} entries (30 ngày gần nhất)")
+    log.info(f" Lịch sử: {len(df_hist_updated)} entries (30 ngày gần nhất)")
 
     # 4. Xuất daily_job.csv
     if df_unique.empty:
-        log.info("ℹ️  Không có job mới hôm nay. Giữ nguyên file cũ.")
+        log.info("  Không có job mới hôm nay. Giữ nguyên file cũ.")
         raise SystemExit(0)
 
     df_daily = df_unique.drop(columns=['id', 'day_key', 'salary_raw'], errors='ignore')
     df_daily.to_csv(DAILY_FILE, index=False, encoding='utf-8-sig')
-    log.info(f"✅ Đã lưu {len(df_daily)} jobs mới vào {DAILY_FILE}")
+    log.info(f" Đã lưu {len(df_daily)} jobs mới vào {DAILY_FILE}")
 
 
 if __name__ == "__main__":
