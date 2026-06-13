@@ -2,12 +2,12 @@ name: Daily IT Job Scraper
 
 on:
   schedule:
-    - cron: '0 1 * * *'   # 1:00 AM UTC = 8:00 AM Vietnam (tránh giờ cao điểm API)
-  workflow_dispatch:       # Cho phép chạy thủ công trên GitHub UI
+    - cron: '0 1 * * *'
+  workflow_dispatch:       
   push:
     branches: [main]
     paths:
-      - 'scraper.py'       # Chỉ trigger khi sửa scraper, không phải mọi push
+      - 'scraper.py'      
 
 permissions:
   contents: write
@@ -67,7 +67,6 @@ jobs:
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
-      # FIX non-fast-forward: pull --rebase trước khi push
       - name: Pull latest before push
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
