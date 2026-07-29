@@ -1,86 +1,81 @@
 ﻿job_title,company,salary,location,experience,skills,raw_date
-Solution Architect,Amentum,38826-38826,"Bristol, South West England (GB)",5+ years,IT General Skills,2026-07-28
-Solution Architect,Amentum,38366-38366,"Birchwood, Chard (GB)",5+ years,IT General Skills,2026-07-28
-Solution Architect,Amentum,37583-37583,"Risley, Warrington (GB)",5+ years,IT General Skills,2026-07-28
-Solution Architect,Amentum,40062-40062,UK (GB),5+ years,IT General Skills,2026-07-28
-Solution Architect,Amentum,36938-36938,"Cardiff, Cardiff County (GB)",5+ years,IT General Skills,2026-07-28
-Senior Proposal Content Developer,ManTech,130756-130756,"Hanover, Anne Arundel County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-07-28
-Discovery Paralegal,Evolver Federal,85000-95000,"Rosslyn, Arlington County (US)",1-3 years,IT General Skills,2026-07-28
-Quarterly Planning and Operations Analyst,JD Power,75000-90000,US (US),1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-28
-Discovery Paralegal with Security Clearance,Evolver,85486-85486,"Rosslyn, Arlington County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-CSV Engineer,ALLIANCE BIOTECH SOLUTIONS LLC,206226-206226,"Raleigh, Wake County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-07-28
-Project Manager - Real Time Operations Center (RTOC),Weatherford,114607-114607,"Houston, Harris County (US)",5+ years,"Agile, Scrum, JIRA, MS Project, Risk Management",2026-07-28
-Electronic Security Technician (Level III),Evolver ESS,86021-86021,US (US),1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-Executive IT Technician: VIP Support Specialist,Evolver Federal,70000-85000,"Crystal, Arlington County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-28
-Discovery Business & System Analyst,Evolver Federal,95000-105000,"Rosslyn, Arlington County (US)",1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-28
-CSIRT Analyst,Evolver Federal,94768-94768,"Kiln, Hancock County (US)",1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-28
-Discovery Business & System Analyst,Evolver,107194-107194,"Mount Rainier, Prince George's County (US)",1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-28
-Executive IT Technician: VIP Support Specialist,Evolver,97334-97334,"Mount Rainier, Prince George's County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-28
-Executive IT Technician: VIP Support Specialist with Security Clearance,Evolver,83255-83255,"Hillcrest Heights, Prince George's County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-Discovery Business & System Analyst with Security Clearance,Evolver,89730-89730,"Chillum, Prince George's County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-Staff Accountant - AP/Purchasing,Evolver Corporate,75000-85000,"Reston, Fairfax County (US)",3-5 years,IT General Skills,2026-07-28
-CSIRT Analyst,Evolver,82011-82011,"Kiln, Hancock County (US)",1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-28
-CSIRT Analyst with Security Clearance,Evolver,88012-88012,"Kiln, Hancock County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-Technical Surveillance Countermeasures Practitioner,ManTech,162854-162854,"Saint Louis, Saint Louis County (US)",1-3 years,IT General Skills,2026-07-28
-CSV Engineer,ALLIANCE BIOTECH SOLUTIONS LLC,187646-187646,"Raleigh, Smith County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-07-28
-Veritas eDiscovery Platform (eDP) Engineer,Evolver Federal,120000-130000,"Rosslyn, Arlington County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-07-28
-Veritas eDiscovery Platform (eDP) Engineer,Evolver,155248-155248,"Mount Rainier, Prince George's County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-07-28
-Software Engineer,MANTECH,170556-170556,"Fort Meade, Meade County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-07-28
-Veritas eDiscovery Platform (eDP) Engineer with Security Clearance,Evolver,154787-154787,"Rosslyn, Arlington County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-DC3 Program Manager – VDP/DCISE/OED with Security Clearance,Evolver,116268-116268,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-DC3 CIO Services Task Lead with Security Clearance,Evolver,142002-142002,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-DC3 Technical Lead - DCISE with Security Clearance,Evolver,145442-145442,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-DC3 Program Manager with Security Clearance,Evolver,127561-127561,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-DC3 Technical Lead – OED with Security Clearance,Evolver,113154-113154,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-DC3 CIO Task Lead with Security Clearance,Evolver,138267-138267,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-DC3 Data Task Lead with Security Clearance,Evolver,79751-79751,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-DC3 Program Manager – VDP/DCISE/OED,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Leadership, Project Management, Communication",2026-07-28
-DC3 CIO Services Task Lead,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-DC3 CIO Task Lead,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-DC3 Technical Lead – OED,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-DC3 Technical Lead - DCISE,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-DC3 Data Task Lead,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-DC3 Program Manager,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Leadership, Project Management, Communication",2026-07-28
-DC3 CIO Task Lead,Evolver,146851-146851,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-DC3 Program Manager,Evolver,138219-138219,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Leadership, Project Management, Communication",2026-07-28
-DC3 Program Manager u2013 VDP/DCISE/OED,Evolver,125963-125963,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Leadership, Project Management, Communication",2026-07-28
-DC3 Technical Lead u2013 OED,Evolver,116707-116707,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-DC3 Data Task Lead,Evolver,84144-84144,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-DC3 CIO Services Task Lead,Evolver,149720-149720,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-DC3 Technical Lead - DCISE,Evolver,150051-150051,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-Mainframe CICS Systems Programmer Senior,USAA,162897-162897,"Charlotte, Mecklenburg County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-07-28
-Mainframe CICS Systems Programmer Senior,USAA,158050-158050,"Phoenix, Maricopa County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-07-28
-Tier 2 IT Support Specialist,Evolver Federal,62775-62775,"Reston, Fairfax County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-28
-Tier 2 Support - Team Lead,Evolver Federal,66264-66264,"Reston, Fairfax County (US)",3-5 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-28
-Scrum Master,Red Arch Solutions,153717-153717,"Reston, Fairfax County (US)",1-3 years,"Scrum, Agile, JIRA, Facilitation, Kanban",2026-07-28
-Senior Security Systems Integrator & Installer,Evolver ESS,65167-65167,US (US),3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-Tier 2 IT Support Specialist,Evolver,47278-47278,US (US),1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-28
-Tier 2 Support - Team Lead,Evolver,49863-49863,US (US),3-5 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-28
-Scrum Master with Security Clearance,Red Arch Solutions,149743-149743,"Reston, Fairfax County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-Software Engineer with Security Clearance,ManTech,144212-144212,"Fort George G Meade, Anne Arundel County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-Video Production Specialist,Evolver,58349-58349,US (US),1-3 years,"Agile, Backlog, User Story, JIRA, Product Roadmap",2026-07-28
-Deputy Program Manager - Cyber,ManTech,110619-110619,"Chantilly, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-07-28
-Task Manager / Lead Analyst with Security Clearance,INTECON LLC,141105-141105,"Scott Air Force Base, Saint Clair County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-Project Support Specialist – Technical Documentation with Security Clearance,INTECON LLC,76903-76903,"Scott Air Force Base, Saint Clair County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-Training Developer / Instructor with Security Clearance,INTECON LLC,83895-83895,"Scott Air Force Base, Saint Clair County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-Human Resources Generalist,Evolver Corporate,90000-115000,"Reston, Fairfax County (US)",1-3 years,IT General Skills,2026-07-28
-Senior General Paralegal,Evolver Federal,90000-100000,"Washington, D.C., US (US)",3-5 years,IT General Skills,2026-07-28
-Senior General Paralegal with Security Clearance,Evolver,83391-83391,"Washington, D.C., US (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-Project Control Analyst,Evolver Corporate,115000-130000,"Reston, Fairfax County (US)",1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-28
-Engineering Technical Account Manager (Cloud),BMO Financial Group,124609-124609,US (US),5+ years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-07-28
-NLM Security Specialist I - III,"Lexical Intelligence, LLC",90000-135000,"Bethesda, Montgomery County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-28
-"IT Service Management Analyst, Specialist",The Vanguard Group,77211-77211,"Wayne, Delaware County (US)",1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-28
-"Director, Enrollment Analytics, Planning and AI (Vice Provost for Admissions & Financial Aid) - Staff",Johns Hopkins University,140084-140084,"Druid, Baltimore (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-IT Intern - Data Engineer - Meridian or Chubbuck,ICCU,55392-55392,"Meridian, Ada County (US)",0-1 year,"Python, SQL, Spark, Airflow, ETL",2026-07-28
-"Portfolio Value Manager, EPMO","Navitus Health Solutions, LLC",112640-140800,US (US),5+ years,"Leadership, Project Management, Communication",2026-07-28
-Technical Writer (GovCon Experience Required),"Business Management Associates, Inc.",95598-95598,"Crystal, Arlington County (US)",1-3 years,"Figma, Adobe XD, User Research, Prototyping",2026-07-28
-Director - Capture Management - TSPG,NANA Regional Corporation,210729-210729,"Herndon, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-07-28
-Join Our Talent Pool - Future Remote Opportunities,CrewBloom,Negotiable,India (IN),1-3 years,IT General Skills,2026-07-28
-Lead Generation Specialist,ScaleupAlly,Negotiable,"Noida, Ghaziabad (IN)",3-5 years,"Leadership, Project Management, Communication",2026-07-28
-Senior Software Engineer,FAI,Negotiable,India (IN),3-5 years,"Git, Programming, Problem Solving, SQL",2026-07-28
-Staff Platform Engineer,FAI,Negotiable,India (IN),3-5 years,"Git, Programming, Problem Solving, SQL",2026-07-28
-IT Sales- Services and Staffing,Durapid Technologies Pvt Ltd,1200000-1500000,India (IN),3-5 years,IT General Skills,2026-07-28
-Lead IT Recruiter,Incruiter,600000-1000000,"Bangalore, Karnataka (IN)",3-5 years,"Figma, Adobe XD, User Research, Prototyping",2026-07-28
-Associate – Utility Transformation– Advisory– Gurugram,PricewaterhouseCoopers,Negotiable,India (IN),1-3 years,IT General Skills,2026-07-28
-Onboarding Team Lead(Staffing Recruititng Agency),Incruiter,200000-1200000,"Bangalore, Karnataka (IN)",3-5 years,"Figma, Adobe XD, User Research, Prototyping",2026-07-28
-Inside Sales Executive,iTech India Private Limited,200000-500000,"Chennai, Tamil Nadu (IN)",1-3 years,IT General Skills,2026-07-28
+Solution Architect,Amentum,38826-38826,"Bristol, South West England (GB)",5+ years,IT General Skills,2026-07-29
+Solution Architect,Amentum,38366-38366,"Birchwood, Chard (GB)",5+ years,IT General Skills,2026-07-29
+Solution Architect,Amentum,37583-37583,"Risley, Warrington (GB)",5+ years,IT General Skills,2026-07-29
+Solution Architect,Amentum,40062-40062,UK (GB),5+ years,IT General Skills,2026-07-29
+Solution Architect,Amentum,36938-36938,"Cardiff, Cardiff County (GB)",5+ years,IT General Skills,2026-07-29
+Discovery Paralegal,Evolver Federal,85000-95000,"Rosslyn, Arlington County (US)",1-3 years,IT General Skills,2026-07-29
+Corporate Investigator Ethics and Compliance,ManTech,89186-89186,"Herndon, Fairfax County (US)",1-3 years,IT General Skills,2026-07-29
+Quarterly Planning and Operations Analyst,JD Power,75000-90000,US (US),1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-29
+Discovery Paralegal with Security Clearance,Evolver,81996-81996,"Rosslyn, Arlington County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+CSV Engineer,ALLIANCE BIOTECH SOLUTIONS LLC,206226-206226,"Raleigh, Wake County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-07-29
+Project Manager - Real Time Operations Center (RTOC),Weatherford,114607-114607,"Houston, Harris County (US)",5+ years,"Agile, Scrum, JIRA, MS Project, Risk Management",2026-07-29
+Electronic Security Technician (Level III),Evolver ESS,86021-86021,US (US),1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+Executive IT Technician: VIP Support Specialist,Evolver Federal,70000-85000,"Crystal, Arlington County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-29
+Discovery Business & System Analyst,Evolver Federal,95000-105000,"Rosslyn, Arlington County (US)",1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-29
+Discovery Business & System Analyst,Evolver,107194-107194,"Mount Rainier, Prince George's County (US)",1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-29
+Executive IT Technician: VIP Support Specialist,Evolver,97334-97334,"Mount Rainier, Prince George's County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-29
+Executive IT Technician: VIP Support Specialist with Security Clearance,Evolver,83255-83255,"Washington, D.C., US (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+Discovery Business & System Analyst with Security Clearance,Evolver,89730-89730,"Washington, D.C., US (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+Staff Accountant - AP/Purchasing,Evolver Corporate,75000-85000,"Reston, Fairfax County (US)",3-5 years,IT General Skills,2026-07-29
+Technical Surveillance Countermeasures Practitioner,ManTech,162854-162854,"Saint Louis, Saint Louis County (US)",1-3 years,IT General Skills,2026-07-29
+Veritas eDiscovery Platform (eDP) Engineer,Evolver Federal,120000-130000,"Rosslyn, Arlington County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-07-29
+Veritas eDiscovery Platform (eDP) Engineer,Evolver,155248-155248,"Mount Rainier, Prince George's County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-07-29
+Software Engineer,MANTECH,170556-170556,"Fort Meade, Meade County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-07-29
+Veritas eDiscovery Platform (eDP) Engineer with Security Clearance,Evolver,125934-125934,"Washington, D.C., US (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+DC3 CIO Services Task Lead with Security Clearance,Evolver,142002-142002,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+DC3 Program Manager – VDP/DCISE/OED with Security Clearance,Evolver,116268-116268,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+DC3 CIO Task Lead with Security Clearance,Evolver,138267-138267,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+DC3 Program Manager with Security Clearance,Evolver,127561-127561,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+DC3 Technical Lead - DCISE with Security Clearance,Evolver,145442-145442,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+DC3 Technical Lead – OED with Security Clearance,Evolver,113154-113154,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+DC3 Data Task Lead with Security Clearance,Evolver,79751-79751,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+DC3 Program Manager – VDP/DCISE/OED,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Leadership, Project Management, Communication",2026-07-29
+DC3 CIO Services Task Lead,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+DC3 CIO Task Lead,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+DC3 Technical Lead – OED,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+DC3 Technical Lead - DCISE,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+DC3 Data Task Lead,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+DC3 Program Manager,Evolver Federal,150000-225000,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Leadership, Project Management, Communication",2026-07-29
+DC3 CIO Task Lead,Evolver,146851-146851,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+DC3 Program Manager,Evolver,138219-138219,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Leadership, Project Management, Communication",2026-07-29
+DC3 Program Manager u2013 VDP/DCISE/OED,Evolver,125963-125963,"Linthicum Heights, Anne Arundel County (US)",5+ years,"Leadership, Project Management, Communication",2026-07-29
+DC3 Technical Lead u2013 OED,Evolver,116707-116707,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+DC3 Data Task Lead,Evolver,84144-84144,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+DC3 Technical Lead - DCISE,Evolver,150051-150051,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+DC3 CIO Services Task Lead,Evolver,149720-149720,"Linthicum Heights, Anne Arundel County (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+Mainframe CICS Systems Programmer Senior,USAA,162897-162897,"Charlotte, Mecklenburg County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-07-29
+Mainframe CICS Systems Programmer Senior,USAA,158050-158050,"Phoenix, Maricopa County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-07-29
+Tier 2 IT Support Specialist,Evolver Federal,62775-62775,"Reston, Fairfax County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-29
+Tier 2 Support - Team Lead,Evolver Federal,66264-66264,"Reston, Fairfax County (US)",3-5 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-29
+Scrum Master,Red Arch Solutions,153717-153717,"Reston, Fairfax County (US)",1-3 years,"Scrum, Agile, JIRA, Facilitation, Kanban",2026-07-29
+Senior Security Systems Integrator & Installer,Evolver ESS,65167-65167,US (US),3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+Tier 2 Support - Team Lead,Evolver,49863-49863,US (US),3-5 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-29
+Tier 2 IT Support Specialist,Evolver,47278-47278,US (US),1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-07-29
+Scrum Master with Security Clearance,Red Arch Solutions,149743-149743,"Reston, Fairfax County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+Software Engineer with Security Clearance,MANTECH,144212-144212,"Fort George G Meade, Anne Arundel County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+Watch Officer,ManTech,150694-150694,"Sun Lakes, Maricopa County (US)",1-3 years,IT General Skills,2026-07-29
+Task Manager / Lead Analyst with Security Clearance,INTECON LLC,141105-141105,"Scott Air Force Base, Saint Clair County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+Project Support Specialist – Technical Documentation with Security Clearance,INTECON LLC,76903-76903,"Scott Air Force Base, Saint Clair County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+Training Developer / Instructor with Security Clearance,INTECON LLC,83895-83895,"Scott Air Force Base, Saint Clair County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+Human Resources Generalist,Evolver Corporate,90000-115000,"Reston, Fairfax County (US)",1-3 years,IT General Skills,2026-07-29
+Senior General Paralegal,Evolver Federal,90000-100000,"Washington, D.C., US (US)",3-5 years,IT General Skills,2026-07-29
+Senior General Paralegal with Security Clearance,Evolver,83391-83391,"Crystal, Arlington County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+Project Control Analyst,Evolver Corporate,115000-130000,"Reston, Fairfax County (US)",1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-29
+Engineering Technical Account Manager (Cloud),BMO Financial Group,124609-124609,US (US),5+ years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-07-29
+NLM Security Specialist I - III,"Lexical Intelligence, LLC",90000-135000,"Bethesda, Montgomery County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-07-29
+"IT Service Management Analyst, Specialist",The Vanguard Group,77211-77211,"Wayne, Delaware County (US)",1-3 years,"SQL, Excel, Data Analysis, Reporting",2026-07-29
+"Director, Enrollment Analytics, Planning and AI (Vice Provost for Admissions & Financial Aid) - Staff",Johns Hopkins University,140084-140084,"Druid, Baltimore (US)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+IT Intern - Data Engineer - Meridian or Chubbuck,ICCU,55392-55392,"Meridian, Ada County (US)",0-1 year,"Python, SQL, Spark, Airflow, ETL",2026-07-29
+"Portfolio Value Manager, EPMO","Navitus Health Solutions, LLC",112640-140800,US (US),5+ years,"Leadership, Project Management, Communication",2026-07-29
+Technical Writer (GovCon Experience Required),"Business Management Associates, Inc.",95598-95598,"Crystal, Arlington County (US)",1-3 years,"Figma, Adobe XD, User Research, Prototyping",2026-07-29
+Director - Capture Management - TSPG,NANA Regional Corporation,210729-210729,"Herndon, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-07-29
+Join Our Talent Pool - Future Remote Opportunities,CrewBloom,Negotiable,India (IN),1-3 years,IT General Skills,2026-07-29
+Lead Generation Specialist,ScaleupAlly,Negotiable,"Noida, Ghaziabad (IN)",3-5 years,"Leadership, Project Management, Communication",2026-07-29
+Senior Software Engineer,FAI,Negotiable,India (IN),3-5 years,"Git, Programming, Problem Solving, SQL",2026-07-29
+Staff Platform Engineer,FAI,Negotiable,India (IN),3-5 years,"Git, Programming, Problem Solving, SQL",2026-07-29
+IT Sales- Services and Staffing,Durapid Technologies Pvt Ltd,1200000-1500000,India (IN),3-5 years,IT General Skills,2026-07-29
+Lead IT Recruiter,Incruiter,600000-1000000,"Bangalore, Karnataka (IN)",3-5 years,"Figma, Adobe XD, User Research, Prototyping",2026-07-29
+Associate – Utility Transformation– Advisory– Gurugram,PricewaterhouseCoopers,Negotiable,India (IN),1-3 years,IT General Skills,2026-07-29
+Onboarding Team Lead(Staffing Recruititng Agency),Incruiter,200000-1200000,"Bangalore, Karnataka (IN)",3-5 years,"Figma, Adobe XD, User Research, Prototyping",2026-07-29
+Inside Sales Executive,iTech India Private Limited,200000-500000,"Chennai, Tamil Nadu (IN)",1-3 years,IT General Skills,2026-07-29
