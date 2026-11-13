@@ -1,183 +1,180 @@
 ﻿job_title,company,salary,location,experience,skills,raw_date
-Solution Architect,Amentum,38826-38826,"Bristol, South West England (GB)",5+ years,IT General Skills,2026-11-12
-Solution Architect,Amentum,40062-40062,UK (GB),5+ years,IT General Skills,2026-11-12
-Solution Architect,Amentum,36938-36938,"Cardiff, Cardiff County (GB)",5+ years,IT General Skills,2026-11-12
-IT Asset Manager,Evolver Federal,90000-110000,"Fort Myer, Arlington County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Perplexity/AI Integration Lead with Security Clearance,Koniag Government Services,137620-137620,"Washington, D.C., US (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-IT Asset Manager,Evolver,136034-136034,"State Farm, Arlington County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-IT Asset Manager with Security Clearance,Evolver,98985-98985,"Fort Myer, Arlington County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Business Development Director (CMS),GD Information Technology,187179-253000,"Fairview Park, Cuyahoga County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Data Integrator,ManTech International,103399-103399,"Tampa, Hillsborough County (US)",1-3 years,IT General Skills,2026-11-12
-Systems Architect,ManTech International,114887-114887,"Fort Walton Beach, Okaloosa County (US)",5+ years,IT General Skills,2026-11-12
-Data Operations Lead,ManTech International,98610-98610,"Tampa, Hillsborough County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,92900-92900,"Tarrytown, Travis County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,115260-115260,"Concord, Merrimack County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,87501-87501,"Ny State Campus, Albany County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,96390-96390,"Grandview Heights, Franklin County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,77534-77534,"Tallahassee, Leon County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,87165-87165,"Five Points, Wake County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,78387-78387,"Springfield, Sangamon County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,95657-95657,"Uptown, Marion County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,81958-81958,"Lansing, Ingham County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,83014-83014,"Cedar, Cole County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,80742-80742,"Nashville, Davidson County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,79169-79169,"Tumwater, Thurston County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,75858-75858,"Penbrook, Dauphin County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,109682-109682,"Atlanta, Fulton County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,79533-79533,"Madison, Dane County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,82184-82184,"Trenton, Mercer County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,76412-76412,"Saint Paul, Ramsey County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,71454-71454,"Jackson, Hinds County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,95855-95855,"Annapolis, Anne Arundel County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,77568-77568,"Edgewood, Richland County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,73515-73515,"Boston, Suffolk County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,84512-84512,"Frankfort, Franklin County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,76737-76737,"Oklahoma City, Oklahoma County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,76053-76053,"Baton Rouge, East Baton Rouge Parish (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,79490-79490,"Topeka, Shawnee County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,74539-74539,"Salem, Marion County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,80230-80230,"Bonnie, Utah County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,74180-74180,"Phoenix, Maricopa County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,69395-69395,"Chisolm, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,75668-75668,"Des Moines, Polk County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,80371-80371,"Charleston, Kanawha County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,96562-96562,"State House, Lancaster County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,84265-84265,"Talcott Village, Hartford County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,82090-82090,"Carson Mall, Carson City (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,117122-117122,"Cammack Village, Pulaski County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,107200-107200,"La Cienga, Santa Fe County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,91811-91811,"Glendale, Denver (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,76953-76953,"Boise, Ada County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,79433-79433,"Washington, D.C., US (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,82986-82986,"Sacramento, Sacramento County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Join our Talent Network | Future Career Opportunities,Re:Build Manufacturing,128279-128279,US (US),1-3 years,"Cisco, Networking, CCNA, Firewall, VPN",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,77414-77414,"Capitol, Richmond (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,76361-76361,"Montpelier, Washington County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,117473-117473,"Pierre, Hughes County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,80195-80195,"Providence, Providence County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,90230-90230,"Archer, Laramie County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,74679-74679,"Bismarck, Burleigh County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,98311-98311,"Wyoming, Kent County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,89726-89726,"Douglas, Juneau (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,75674-75674,"Urbanización El Vedado, San Juan (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,87628-87628,"Mongmong, Mongmong-Toto-Maite (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,84165-84165,US (US),5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,104671-104671,"Augusta, Kennebec County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,72100-72100,"Wake Island, Honolulu (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,79537-79537,"Helena, Lewis and Clark County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-"Director, Business Development and Capture Management - DoD IT",NANA Regional Corporation,191474-191474,"Herndon, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Client Solutions Manager,Robert Half,76560-76560,"Miami, Miami-Dade County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Process Manager Sr,"Adecco US, Inc.",250663-250663,"Tysons Corner, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Operations - Process Manager - Sr,Eliassen Group,69070-69070,US (US),5+ years,"Leadership, Project Management, Communication",2026-11-12
-"Director, Business Development and Capture Management - DoD IT with Security Clearance",Akima,206211-206211,"Herndon, Fairfax County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Director of Capture Management (IT Programs),Insight Global,143248-143248,"Herndon, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Business Development Director (CMS),General Dynamics Information Technology,180033-180033,"West Falls Church, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Technical Project Manager,Talnt,70000-85000,"Tallmadge, Summit County (US)",5+ years,"Agile, Scrum, JIRA, MS Project, Risk Management",2026-11-12
-Business Development Director (CMS),General Dynamics Information Technology,113672-113672,"Windsor Mill, Baltimore County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Testing Lead / Manager,Spatial Front,100000-160000,"Arlington, Arlington County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-Product Manager,Flowserve Corporation,216353-216353,"Irving, Dallas (US)",5+ years,"Agile, Backlog, User Story, JIRA, Product Roadmap",2026-11-12
-Software Engineer with Security Clearance,MANTECH,144212-144212,"Fort George G Meade, Anne Arundel County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Junior Business Analyst with Security Clearance,Evolver,82113-82113,"Reston, Fairfax County (US)",0-1 year,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-12
-Intermediate Business Analyst with Security Clearance,Evolver,77293-77293,"Reston, Fairfax County (US)",1-3 years,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-12
-Product Manager,Flowserve Corporation,252355-252355,"Irving, Dallas (US)",5+ years,"Agile, Backlog, User Story, JIRA, Product Roadmap",2026-11-12
-Product Manager,Flowserve Corporation,252613-252613,"Old Sixth Ward, Houston (US)",5+ years,"Agile, Backlog, User Story, JIRA, Product Roadmap",2026-11-12
-Junior Business Analyst,Evolver Federal,55000-60000,"Reston, Fairfax County (US)",0-1 year,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-12
-Intermediate Business Analyst,Evolver Federal,65000-72000,"Reston, Fairfax County (US)",1-3 years,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-12
-Intermediate Business Analyst,Evolver,193812-193812,"Reston, Fairfax County (US)",1-3 years,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-12
-Junior Business Analyst,Evolver,150496-150496,"Reston, Fairfax County (US)",0-1 year,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-12
-Engineering Technical Account Manager (Cloud),BMO Financial Group,139416-139416,US (US),5+ years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-11-12
-"Director of IT - AI, Data & Application Development",KI,145059-145059,"Green Bay, Brown County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Insider Threat Support Analyst,Evolver,137901-137901,"Camp Springs, Prince George's County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-12
-Engineering Technical Account Manager (Cloud),Bank of Montreal,100000-220000,US (US),5+ years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-11-12
-Project Manager (Data Projects) with Security Clearance,ECS,123438-123438,"Hampton Roads, Hampton City (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Associate Director of Institutional and Business Analytics (Engineering Business Office) - Staff,Johns Hopkins University,159012-159012,"Druid, Baltimore (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-ManageEngine ITSM Administrator / Automation Engineer,Evolver Federal,130000-140000,"Crystal, Arlington County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Mainframe CICS Systems Programmer Senior,USAA,161788-161788,"Charlotte, Mecklenburg County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Mainframe CICS Systems Programmer Senior,USAA,156975-156975,"Phoenix, Maricopa County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Mainframe CICS Systems Programmer Senior,USAA,171483-171483,"Colorado Springs, El Paso County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-AI Integration Lead,Seneca Resources,104300-104300,"Washington, D.C., US (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-ManageEngine ITSM Administrator / Automation Engineer,Evolver,144542-144542,"Mount Rainier, Prince George's County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-ManageEngine ITSM Administrator / Automation Engineer with Security Clearance,Evolver,78134-78134,"Crystal, Arlington County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Talent Incubator Manager,Alliant Group,65567-65567,"Houston, Harris County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Solutions Specialist,Fulcrum Digital Inc,68360-68360,US (US),1-3 years,IT General Skills,2026-11-12
-APEX Oracle Developer,Evolver Federal,130000-140000,"Washington, D.C., US (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-"Senior Program Manager, Professional Services",Hitachi,169808-169808,"California, Washington County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-APEX Oracle Developer,Evolver,151946-151946,"Mount Rainier, Prince George's County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-APEX Oracle Developer with Security Clearance,Evolver,117734-117734,"Washington, D.C., US (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Service Desk Manager,Evolver Federal,115000-125000,"Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Software Development Lead,Evolver Federal,160000-180000,"Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-Infrastructure / Systems Administration Lead,Evolver Federal,150000-180000,"Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-End User Support Engineer Lead,Evolver Federal,150000-180000,"Bethesda, Montgomery County (US)",3-5 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-12
-Deputy Program Manager,Evolver Federal,150000-175000,"Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Program Manager,Evolver Federal,180000-200000,"Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Project Manager - PMO Lead,Evolver Federal,150000-175000,"Bethesda, Montgomery County (US)",3-5 years,"Agile, Scrum, JIRA, MS Project, Risk Management",2026-11-12
-Database Administrator / DASH Lead,Evolver Federal,150000-175000,"Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-Lead Cloud Engineer,Evolver Federal,160000-180000,"Bethesda, Montgomery County (US)",3-5 years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-11-12
-OT/ICS Systems Engineer Lead,Evolver Federal,160000-180000,"Bethesda, Montgomery County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Service Desk Manager,Evolver,77098-77098,"West Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Infrastructure / Systems Administration Lead,Evolver,100245-100245,"West Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-Deputy Program Manager,Evolver,169420-169420,"West Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Database Administrator / DASH Lead,Evolver,90252-90252,"West Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-End User Support Engineer Lead,Evolver,147912-147912,"West Bethesda, Montgomery County (US)",3-5 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-12
-Lead Cloud Engineer,Evolver,155716-155716,"West Bethesda, Montgomery County (US)",3-5 years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-11-12
-Program Manager,Evolver,167756-167756,"West Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Software Development Lead,Evolver,150722-150722,"West Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-OT/ICS Systems Engineer Lead,Evolver,93717-93717,"West Bethesda, Montgomery County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Infrastructure / Systems Administration Lead with Security Clearance,Evolver,124184-124184,"Martins Additions, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-End User Support Engineer Lead with Security Clearance,Evolver,97586-97586,"Somerset, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Software Development Lead with Security Clearance,Evolver,90236-90236,"Westlake, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Service Desk Manager with Security Clearance,Evolver,76270-76270,"West Bethesda, Montgomery County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Database Administrator / DASH Lead with Security Clearance,Evolver,83952-83952,"Bethesda, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-OT/ICS Systems Engineer Lead with Security Clearance,Evolver,82510-82510,"Bethesda, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Deputy Program Manager with Security Clearance,Evolver,144607-144607,"West Bethesda, Montgomery County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Project Manager - PMO Lead with Security Clearance,Evolver,179321-179321,"Bethesda, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Program Manager with Security Clearance,Evolver,143711-143711,"Bethesda, Montgomery County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Lead Cloud Engineer with Security Clearance,Evolver,136194-136194,"Bethesda, Montgomery County (US)",3-5 years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-11-12
-Business Intelligence Developer Senior,Gentiva,132107-132107,"Atlanta, Fulton County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Deputy Project Manager,Detroit Defense,100000-120000,"Troy, Oakland County (US)",5+ years,"Agile, Scrum, JIRA, MS Project, Risk Management",2026-11-12
-General Paralegal,Evolver Federal,80000-85000,"Washington, D.C., US (US)",1-3 years,IT General Skills,2026-11-12
-Sr Data Analyst- Supply Chain Management,Sierra Space,128648-176891,"Louisville, Boulder County (US)",1-3 years,"SQL, Python, Power BI, Excel, Tableau",2026-11-12
-"Senior Discovery Paralegal - Washington, DC with Security Clearance",Evolver,66646-66646,"Suitland, Prince George's County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Insider Threat Support Analyst with Security Clearance,Evolver,120463-120463,"Temple Hills, Prince George's County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Discovery Paralegal with Security Clearance,Evolver,79678-79678,"Washington, D.C., US (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Veritas eDiscovery Platform (eDP) Engineer with Security Clearance,Evolver,161328-161328,"Crystal, Arlington County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-eDiscovery Technical Advisor with Security Clearance,Evolver,100416-100416,"Rosslyn, Arlington County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-General Paralegal with Security Clearance,Evolver,78055-78055,"Rosslyn, Arlington County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Application Developer / Java Full-Stack Developer / Software Engineer (Web Applications),MANTECH,139148-139148,"Chantilly, Fairfax County (US)",1-3 years,"Java, Spring Boot, SQL, Git, REST API",2026-11-12
-"Senior Director Electronic Security Systems Engineering, Estimation & CAD",Evolver ESS,150000-200000,"Manassas, Prince William County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-eDiscovery Technical Advisor,Evolver Federal,110000-125000,"Rosslyn, Arlington County (US)",1-3 years,IT General Skills,2026-11-12
-eDiscovery Technical Advisor,Evolver,122483-122483,"Mount Rainier, Prince George's County (US)",1-3 years,IT General Skills,2026-11-12
-IT Support & Automation Specialist,River Road Asset Management,53793-53793,"Louisville, Jefferson County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-12
-DHS Program Manager,REI Systems,65089-65089,"Dulles Town Center, Loudoun County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Insider Threat Support Analyst,Evolver Federal,120000-130000,"Suitland, Prince George's County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-12
-Insider Threat Support Analyst,Evolver,138822-138822,"Camp Springs, Prince George's County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-12
-Business Intelligence Developer Senior,N/A,129389-129389,"Vinnings, Cobb County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Mainframe CICS Systems Programmer Senior,"Pyramid, Inc",124800-145600,"San Antonio, Bexar County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-AI Architect,Software AG,175000-190000,"Reston, Fairfax County (US)",5+ years,IT General Skills,2026-11-12
-"Vice President, Application Engineering",Sand Tech,176020-176020,US (US),5+ years,"Git, Programming, Problem Solving, SQL",2026-11-12
-"Senior Program Manager, Professional Services",Hitachi,165000-215000,"Washington, Washington, D.C. (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-IT Software Developer Analyst-Level 4 -26-22715,US Tech Solutions,168413-168413,"Juno Beach, Palm Beach County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Software Engineer,MANTECH,170556-170556,"Fort Meade, Meade County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Technical Sourcer,MANTECH,123778-123778,"Herndon, Fairfax County (US)",1-3 years,IT General Skills,2026-11-12
-Senior Discovery Paralegal,Evolver Federal,95000-105000,"Rosslyn, Arlington County (US)",3-5 years,IT General Skills,2026-11-12
-Discovery Paralegal,Evolver Federal,85000-95000,"Rosslyn, Arlington County (US)",1-3 years,IT General Skills,2026-11-12
-General Paralegal with Security Clearance,"NasTech Global, Inc.",93852-93852,"Washington, D.C., US (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Perplexity/AI Integration Lead,Koniag Government Services,120691-120691,"Washington, Washington, D.C. (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-Perplexity/AI Integration Lead,Koniag Government Services,120543-120543,"Washington, D.C., US (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-12
-CSV Engineer,Alliance Biotech Solutions,163888-163888,"Raleigh, Wake County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-CTO,The Hiring Method,250000-400000,US (US),1-3 years,IT General Skills,2026-11-12
-Electronic Security Technician (Level III),Evolver ESS,86021-86021,US (US),1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-12
-Veritas eDiscovery Platform (eDP) Engineer,Evolver Federal,120000-130000,"Rosslyn, Arlington County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Veritas eDiscovery Platform (eDP) Engineer,Evolver,155248-155248,"Mount Rainier, Prince George's County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Director - Capture Management - TSPG,NANA Regional Corporation,212397-212397,"Herndon, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-12
-Agentic AI Architect,CAI,Negotiable,"Bangalore, Karnataka (IN)",5+ years,IT General Skills,2026-11-12
-Business Development Executive,Mags Consulting,Negotiable,"Injambakkam, Chennai (IN)",1-3 years,IT General Skills,2026-11-12
-"Sr. Assoc, Devops Engineer",Revantage,Negotiable,"Bangalore, Karnataka (IN)",3-5 years,"Docker, Kubernetes, CI/CD, Linux, AWS hoặc GCP",2026-11-12
-IT Sales Executive,Durapid Technologies Pvt Ltd,200000-300000,"Jaipur, Rajasthan (IN)",1-3 years,IT General Skills,2026-11-12
-EntryLevel IT Summer Intern Data Analytics Software Development and,remote zest jobs,Negotiable,India (IN),0-1 year,IT General Skills,2026-11-12
-Join Our Talent Pool - Future Remote Opportunities,CrewBloom,Negotiable,India (IN),1-3 years,IT General Skills,2026-11-12
-Staff Platform Engineer,FAI,Negotiable,India (IN),3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-12
-Lead IT Recruiter,Incruiter,600000-1000000,"Bangalore, Karnataka (IN)",3-5 years,"Figma, Adobe XD, User Research, Prototyping",2026-11-12
-Associate – Utility Transformation– Advisory– Gurugram,PricewaterhouseCoopers,Negotiable,India (IN),1-3 years,IT General Skills,2026-11-12
-Onboarding Team Lead(Staffing Recruititng Agency),Incruiter,200000-1200000,"Bangalore, Karnataka (IN)",3-5 years,"Figma, Adobe XD, User Research, Prototyping",2026-11-12
-Inside Sales Executive,iTech India Private Limited,200000-500000,"Chennai, Tamil Nadu (IN)",1-3 years,IT General Skills,2026-11-12
+Solution Architect,Amentum,38826-38826,"Bristol, South West England (GB)",5+ years,IT General Skills,2026-11-13
+Solution Architect,Amentum,40062-40062,UK (GB),5+ years,IT General Skills,2026-11-13
+Solution Architect,Amentum,36938-36938,"Cardiff, Cardiff County (GB)",5+ years,IT General Skills,2026-11-13
+Tier 2 Deskside Support Technician with Security Clearance,Evolver,78029-78029,"East Long Beach, Los Angeles County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Brillient Talent Community,Brillient Corporation,72627-72627,"Reston, Fairfax County (US)",1-3 years,IT General Skills,2026-11-13
+IT Asset Manager,Evolver Federal,90000-110000,"Fort Myer, Arlington County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Perplexity/AI Integration Lead with Security Clearance,Koniag Government Services,137620-137620,"Washington, D.C., US (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+IT Asset Manager,Evolver,136034-136034,"State Farm, Arlington County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+IT Asset Manager with Security Clearance,Evolver,85465-85465,"Crystal, Arlington County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Data Integrator,ManTech International,103399-103399,"Tampa, Hillsborough County (US)",1-3 years,IT General Skills,2026-11-13
+Systems Architect,ManTech International,114887-114887,"Fort Walton Beach, Okaloosa County (US)",5+ years,IT General Skills,2026-11-13
+Data Architect,ManTech International,131303-131303,"Tampa, Hillsborough County (US)",5+ years,IT General Skills,2026-11-13
+Data Operations Lead,ManTech International,98610-98610,"Tampa, Hillsborough County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,92900-92900,"Tarrytown, Travis County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,115260-115260,"Concord, Merrimack County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,87501-87501,"Ny State Campus, Albany County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,96390-96390,"Grandview Heights, Franklin County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,77534-77534,"Tallahassee, Leon County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,87165-87165,"Five Points, Wake County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,78387-78387,"Springfield, Sangamon County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,95657-95657,"Uptown, Marion County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,81958-81958,"Lansing, Ingham County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,83014-83014,"Cedar, Cole County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,80742-80742,"Nashville, Davidson County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,79169-79169,"Tumwater, Thurston County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,75858-75858,"Penbrook, Dauphin County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,109682-109682,"Atlanta, Fulton County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,79533-79533,"Madison, Dane County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,82184-82184,"Trenton, Mercer County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,76412-76412,"Saint Paul, Ramsey County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,71454-71454,"Jackson, Hinds County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,95855-95855,"Annapolis, Anne Arundel County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,77568-77568,"Edgewood, Richland County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,73515-73515,"Boston, Suffolk County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,84512-84512,"Frankfort, Franklin County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,76737-76737,"Oklahoma City, Oklahoma County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,76053-76053,"Baton Rouge, East Baton Rouge Parish (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,79490-79490,"Topeka, Shawnee County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,74539-74539,"Salem, Marion County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,80230-80230,"Bonnie, Utah County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,74180-74180,"Phoenix, Maricopa County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,69395-69395,"Chisolm, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,75668-75668,"Des Moines, Polk County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,80371-80371,"Charleston, Kanawha County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,96562-96562,"State House, Lancaster County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,84265-84265,"Talcott Village, Hartford County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,82090-82090,"Carson Mall, Carson City (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,117122-117122,"Cammack Village, Pulaski County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,107200-107200,"La Cienga, Santa Fe County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,91811-91811,"Glendale, Denver (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,76953-76953,"Boise, Ada County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,79433-79433,"Washington, D.C., US (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,82986-82986,"Sacramento, Sacramento County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Join our Talent Network | Future Career Opportunities,Re:Build Manufacturing,128279-128279,US (US),1-3 years,"Cisco, Networking, CCNA, Firewall, VPN",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,77414-77414,"Capitol, Richmond (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,76361-76361,"Montpelier, Washington County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,117473-117473,"Pierre, Hughes County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,80195-80195,"Providence, Providence County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,90230-90230,"Archer, Laramie County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,74679-74679,"Bismarck, Burleigh County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,98311-98311,"Wyoming, Kent County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,89726-89726,"Douglas, Juneau (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,75674-75674,"Urbanización El Vedado, San Juan (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,87628-87628,"Mongmong, Mongmong-Toto-Maite (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,84165-84165,US (US),5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,104671-104671,"Augusta, Kennebec County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,72100-72100,"Wake Island, Honolulu (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,79537-79537,"Helena, Lewis and Clark County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+"Director, Business Development and Capture Management - DoD IT",NANA Regional Corporation,191474-191474,"Herndon, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Client Solutions Manager,Robert Half,76560-76560,"Miami, Miami-Dade County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Process Manager Sr,"Adecco US, Inc.",250663-250663,"Tysons Corner, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Operations - Process Manager - Sr,Eliassen Group,69070-69070,US (US),5+ years,"Leadership, Project Management, Communication",2026-11-13
+"Director, Business Development and Capture Management - DoD IT with Security Clearance",Akima,206211-206211,"Herndon, Fairfax County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Director of Capture Management (IT Programs),Insight Global,143248-143248,"Herndon, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Business Development Director (CMS),General Dynamics Information Technology,180033-180033,"West Falls Church, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Technical Project Manager,Talnt,70000-85000,"Tallmadge, Summit County (US)",5+ years,"Agile, Scrum, JIRA, MS Project, Risk Management",2026-11-13
+Business Development Director (CMS),General Dynamics Information Technology,113672-113672,"Windsor Mill, Baltimore County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Product Manager,Flowserve Corporation,216353-216353,"Irving, Dallas (US)",5+ years,"Agile, Backlog, User Story, JIRA, Product Roadmap",2026-11-13
+Software Engineer with Security Clearance,MANTECH,144212-144212,"Fort George G Meade, Anne Arundel County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Junior Business Analyst with Security Clearance,Evolver,149314-149314,"Reston, Fairfax County (US)",0-1 year,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-13
+Intermediate Business Analyst with Security Clearance,Evolver,96418-96418,"Reston, Fairfax County (US)",1-3 years,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-13
+Junior Business Analyst,Evolver Federal,55000-60000,"Reston, Fairfax County (US)",0-1 year,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-13
+Intermediate Business Analyst,Evolver Federal,65000-72000,"Reston, Fairfax County (US)",1-3 years,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-13
+Intermediate Business Analyst,Evolver,193812-193812,"Reston, Fairfax County (US)",1-3 years,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-13
+Junior Business Analyst,Evolver,150496-150496,"Reston, Fairfax County (US)",0-1 year,"SQL, Excel, Power BI, Business Analysis, BPMN",2026-11-13
+Engineering Technical Account Manager (Cloud),BMO Financial Group,139416-139416,US (US),5+ years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-11-13
+Insider Threat Support Analyst,Evolver,137901-137901,"Camp Springs, Prince George's County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-13
+Engineering Technical Account Manager (Cloud),Bank of Montreal,100000-220000,US (US),5+ years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-11-13
+Project Manager (Data Projects) with Security Clearance,ECS,123438-123438,"Hampton Roads, Hampton City (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Associate Director of Institutional and Business Analytics (Engineering Business Office) - Staff,Johns Hopkins University,159012-159012,"Druid, Baltimore (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+ManageEngine ITSM Administrator / Automation Engineer,Evolver Federal,130000-140000,"Crystal, Arlington County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Mainframe CICS Systems Programmer Senior,USAA,161788-161788,"Charlotte, Mecklenburg County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Mainframe CICS Systems Programmer Senior,USAA,156975-156975,"Phoenix, Maricopa County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Mainframe CICS Systems Programmer Senior,USAA,171483-171483,"Colorado Springs, El Paso County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+AI Integration Lead,Seneca Resources,104300-104300,"Washington, D.C., US (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-13
+ManageEngine ITSM Administrator / Automation Engineer,Evolver,144542-144542,"Mount Rainier, Prince George's County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+ManageEngine ITSM Administrator / Automation Engineer - Washingt with Security Clearance,Evolver,102576-102576,"Hillcrest Heights, Prince George's County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Talent Incubator Manager,Alliant Group,65567-65567,"Houston, Harris County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Solutions Specialist,Fulcrum Digital Inc,68360-68360,US (US),1-3 years,IT General Skills,2026-11-13
+APEX Oracle Developer,Evolver Federal,130000-140000,"Washington, D.C., US (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+APEX Oracle Developer,Evolver,151946-151946,"Mount Rainier, Prince George's County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Service Desk Manager,Evolver Federal,115000-125000,"Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Software Development Lead,Evolver Federal,160000-180000,"Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-13
+Infrastructure / Systems Administration Lead,Evolver Federal,150000-180000,"Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-13
+End User Support Engineer Lead,Evolver Federal,150000-180000,"Bethesda, Montgomery County (US)",3-5 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-13
+Deputy Program Manager,Evolver Federal,150000-175000,"Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Program Manager,Evolver Federal,180000-200000,"Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Project Manager - PMO Lead,Evolver Federal,150000-175000,"Bethesda, Montgomery County (US)",3-5 years,"Agile, Scrum, JIRA, MS Project, Risk Management",2026-11-13
+Database Administrator / DASH Lead,Evolver Federal,150000-175000,"Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-13
+Lead Cloud Engineer,Evolver Federal,160000-180000,"Bethesda, Montgomery County (US)",3-5 years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-11-13
+OT/ICS Systems Engineer Lead,Evolver Federal,160000-180000,"Bethesda, Montgomery County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Service Desk Manager,Evolver,77098-77098,"West Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Deputy Program Manager,Evolver,169420-169420,"West Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Infrastructure / Systems Administration Lead,Evolver,100245-100245,"West Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-13
+Database Administrator / DASH Lead,Evolver,90252-90252,"West Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-13
+End User Support Engineer Lead,Evolver,147912-147912,"West Bethesda, Montgomery County (US)",3-5 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-13
+Lead Cloud Engineer,Evolver,155716-155716,"West Bethesda, Montgomery County (US)",3-5 years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-11-13
+Project Manager - PMO Lead,Evolver,196857-196857,"West Bethesda, Montgomery County (US)",3-5 years,"Agile, Scrum, JIRA, MS Project, Risk Management",2026-11-13
+Program Manager,Evolver,167756-167756,"West Bethesda, Montgomery County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+OT/ICS Systems Engineer Lead,Evolver,93717-93717,"West Bethesda, Montgomery County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Software Development Lead,Evolver,150722-150722,"West Bethesda, Montgomery County (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-13
+Infrastructure / Systems Administration Lead with Security Clearance,Evolver,89065-89065,"West Bethesda, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Software Development Lead with Security Clearance,Evolver,126281-126281,"North Chevy Chase, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+End User Support Engineer Lead with Security Clearance,Evolver,97586-97586,"Somerset, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Service Desk Manager with Security Clearance,Evolver,95681-95681,"Martins Additions, Montgomery County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Database Administrator / DASH Lead with Security Clearance,Evolver,86078-86078,"Somerset, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Deputy Program Manager with Security Clearance,Evolver,168003-168003,"Bethesda, Montgomery County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+OT/ICS Systems Engineer Lead with Security Clearance,Evolver,82510-82510,"North Chevy Chase, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Project Manager - PMO Lead with Security Clearance,Evolver,179990-179990,"West Bethesda, Montgomery County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Lead Cloud Engineer with Security Clearance,Evolver,141843-141843,"West Bethesda, Montgomery County (US)",3-5 years,"AWS, GCP hoặc Azure, Terraform, Docker, Linux",2026-11-13
+Program Manager with Security Clearance,Evolver,143711-143711,"West Bethesda, Montgomery County (US)",5+ years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Business Intelligence Developer Senior,Gentiva,132107-132107,"Atlanta, Fulton County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Deputy Project Manager,Detroit Defense,100000-120000,"Troy, Oakland County (US)",5+ years,"Agile, Scrum, JIRA, MS Project, Risk Management",2026-11-13
+General Paralegal,Evolver Federal,80000-85000,"Washington, D.C., US (US)",1-3 years,IT General Skills,2026-11-13
+Sr Data Analyst- Supply Chain Management,Sierra Space,128648-176891,"Louisville, Boulder County (US)",1-3 years,"SQL, Python, Power BI, Excel, Tableau",2026-11-13
+Senior Discovery Paralegal with Security Clearance,Evolver,73854-73854,"Crystal, Arlington County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Insider Threat Support Analyst with Security Clearance,Evolver,120463-120463,"Temple Hills, Prince George's County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Discovery Paralegal with Security Clearance,Evolver,79678-79678,"Washington, D.C., US (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Veritas eDiscovery Platform (eDP) Engineer with Security Clearance,Evolver,125864-125864,"Rosslyn, Arlington County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+General Paralegal with Security Clearance,Evolver,78055-78055,"Rosslyn, Arlington County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+eDiscovery Technical Advisor with Security Clearance,Evolver,100416-100416,"Suitland, Prince George's County (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Application Developer / Java Full-Stack Developer / Software Engineer (Web Applications),MANTECH,139148-139148,"Chantilly, Fairfax County (US)",1-3 years,"Java, Spring Boot, SQL, Git, REST API",2026-11-13
+"Senior Director Electronic Security Systems Engineering, Estimation & CAD",Evolver ESS,150000-200000,"Manassas, Prince William County (US)",3-5 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+eDiscovery Technical Advisor,Evolver Federal,110000-125000,"Rosslyn, Arlington County (US)",1-3 years,IT General Skills,2026-11-13
+eDiscovery Technical Advisor,Evolver,122483-122483,"Mount Rainier, Prince George's County (US)",1-3 years,IT General Skills,2026-11-13
+IT Support & Automation Specialist,River Road Asset Management,53793-53793,"Louisville, Jefferson County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-13
+DHS Program Manager,REI Systems,65089-65089,"Dulles Town Center, Loudoun County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Insider Threat Support Analyst,Evolver Federal,120000-130000,"Suitland, Prince George's County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-13
+Insider Threat Support Analyst,Evolver,138822-138822,"Camp Springs, Prince George's County (US)",1-3 years,"Windows, Networking, Hardware, Troubleshooting",2026-11-13
+Business Intelligence Developer Senior,N/A,129389-129389,"Vinnings, Cobb County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Mainframe CICS Systems Programmer Senior,"Pyramid, Inc",124800-145600,"San Antonio, Bexar County (US)",3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+AI Architect,Software AG,175000-190000,"Reston, Fairfax County (US)",5+ years,IT General Skills,2026-11-13
+"Vice President, Application Engineering",Sand Tech,176020-176020,US (US),5+ years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Independent Technology Sales/ Client Partner,Saven Technologies,149993-149993,US (US),1-3 years,IT General Skills,2026-11-13
+IT Software Developer Analyst-Level 4 -26-22715,US Tech Solutions,168413-168413,"Juno Beach, Palm Beach County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Software Engineer,MANTECH,170556-170556,"Fort Meade, Meade County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Technical Sourcer,MANTECH,123778-123778,"Herndon, Fairfax County (US)",1-3 years,IT General Skills,2026-11-13
+Senior Discovery Paralegal,Evolver Federal,95000-105000,"Rosslyn, Arlington County (US)",3-5 years,IT General Skills,2026-11-13
+Discovery Paralegal,Evolver Federal,85000-95000,"Rosslyn, Arlington County (US)",1-3 years,IT General Skills,2026-11-13
+General Paralegal with Security Clearance,"NasTech Global, Inc.",93852-93852,"Washington, D.C., US (US)",1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Perplexity/AI Integration Lead,Koniag Government Services,120691-120691,"Washington, Washington, D.C. (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-13
+Perplexity/AI Integration Lead,Koniag Government Services,120543-120543,"Washington, D.C., US (US)",3-5 years,"Leadership, Project Management, Communication",2026-11-13
+CSV Engineer,Alliance Biotech Solutions,163888-163888,"Raleigh, Wake County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+CTO,The Hiring Method,250000-400000,US (US),1-3 years,IT General Skills,2026-11-13
+Electronic Security Technician (Level III),Evolver ESS,86021-86021,US (US),1-3 years,"Penetration Testing, SIEM, Firewall, Linux, SOC",2026-11-13
+Veritas eDiscovery Platform (eDP) Engineer,Evolver Federal,120000-130000,"Rosslyn, Arlington County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Veritas eDiscovery Platform (eDP) Engineer,Evolver,155248-155248,"Mount Rainier, Prince George's County (US)",1-3 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Director - Capture Management - TSPG,NANA Regional Corporation,212397-212397,"Herndon, Fairfax County (US)",5+ years,"Leadership, Project Management, Communication",2026-11-13
+Technical Recruiter - Healthcare IT,Telradsol,Negotiable,"Hoodi, Bangalore (IN)",1-3 years,"Figma, Adobe XD, User Research, Prototyping",2026-11-13
+Agentic AI Architect,CAI,Negotiable,"Bangalore, Karnataka (IN)",5+ years,IT General Skills,2026-11-13
+Business Development Executive,Mags Consulting,Negotiable,"Injambakkam, Chennai (IN)",1-3 years,IT General Skills,2026-11-13
+"Sr. Assoc, Devops Engineer",Revantage,Negotiable,"Bangalore, Karnataka (IN)",3-5 years,"Docker, Kubernetes, CI/CD, Linux, AWS hoặc GCP",2026-11-13
+EntryLevel IT Summer Intern Data Analytics Software Development and,remote zest jobs,Negotiable,India (IN),0-1 year,IT General Skills,2026-11-13
+Join Our Talent Pool - Future Remote Opportunities,CrewBloom,Negotiable,India (IN),1-3 years,IT General Skills,2026-11-13
+Staff Platform Engineer,FAI,Negotiable,India (IN),3-5 years,"Git, Programming, Problem Solving, SQL",2026-11-13
+Lead IT Recruiter,Incruiter,600000-1000000,"Bangalore, Karnataka (IN)",3-5 years,"Figma, Adobe XD, User Research, Prototyping",2026-11-13
+Associate – Utility Transformation– Advisory– Gurugram,PricewaterhouseCoopers,Negotiable,India (IN),1-3 years,IT General Skills,2026-11-13
+Onboarding Team Lead(Staffing Recruititng Agency),Incruiter,200000-1200000,"Bangalore, Karnataka (IN)",3-5 years,"Figma, Adobe XD, User Research, Prototyping",2026-11-13
+Inside Sales Executive,iTech India Private Limited,200000-500000,"Chennai, Tamil Nadu (IN)",1-3 years,IT General Skills,2026-11-13
